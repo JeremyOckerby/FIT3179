@@ -1,0 +1,231 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 600,
+  "title": "Victorian Secondary School Enrolments by Local Government Area (LGA)",
+  "params": [
+    {
+      "name": "selectedLGA",
+      "value": null,
+      "bind": {
+        "input": "select",
+        "name": "Select an LGA: ",
+        "options": [
+            null,
+            "Alpine",
+            "Ararat",
+            "Ballarat",
+            "Banyule",
+            "Bass Coast",
+            "Baw Baw",
+            "Bayside",
+            "Benalla",
+            "Boroondara",
+            "Brimbank",
+            "Buloke",
+            "Campaspe",
+            "Cardinia",
+            "Casey",
+            "Central Goldfields",
+            "Colac-Otway",
+            "Corangamite",
+            "Darebin",
+            "East Gippsland",
+            "Frankston",
+            "Gannawarra",
+            "Glen Eira",
+            "Glenelg",
+            "Golden Plains",
+            "Greater Bendigo",
+            "Greater Dandenong",
+            "Greater Geelong",
+            "Greater Shepparton",
+            "Hepburn",
+            "Hindmarsh",
+            "Hobsons Bay",
+            "Horsham",
+            "Hume",
+            "Indigo",
+            "Kingston",
+            "Knox",
+            "Latrobe",
+            "Loddon",
+            "Macedon Ranges",
+            "Manningham",
+            "Mansfield",
+            "Maribyrnong",
+            "Maroondah",
+            "Melbourne",
+            "Melton",
+            "Merri-bek",
+            "Mildura",
+            "Mitchell",
+            "Moira",
+            "Monash",
+            "Moonee Valley",
+            "Moorabool",
+            "Mornington Peninsula",
+            "Mount Alexander",
+            "Moyne",
+            "Murrindindi",
+            "Nillumbik",
+            "Northern Grampians",
+            "Port Phillip",
+            "Pyrenees",
+            "South Gippsland",
+            "Southern Grampians",
+            "Stonnington",
+            "Strathbogie",
+            "Surf Coast",
+            "Swan Hill",
+            "Towong",
+            "Wangaratta",
+            "Warrnambool",
+            "Wellington",
+            "West Wimmera",
+            "Whitehorse",
+            "Whittlesea",
+            "Wodonga",
+            "Wyndham",
+            "Yarra",
+            "Yarra Ranges",
+            "Yarriambiack"
+            ],
+
+        "labels": [
+          "All",
+        "Alpine",
+        "Ararat",
+        "Ballarat",
+        "Banyule",
+        "Bass Coast",
+        "Baw Baw",
+        "Bayside",
+        "Benalla",
+        "Boroondara",
+        "Brimbank",
+        "Buloke",
+        "Campaspe",
+        "Cardinia",
+        "Casey",
+        "Central Goldfields",
+        "Colac-Otway",
+        "Corangamite",
+        "Darebin",
+        "East Gippsland",
+        "Frankston",
+        "Gannawarra",
+        "Glen Eira",
+        "Glenelg",
+        "Golden Plains",
+        "Greater Bendigo",
+        "Greater Dandenong",
+        "Greater Geelong",
+        "Greater Shepparton",
+        "Hepburn",
+        "Hindmarsh",
+        "Hobsons Bay",
+        "Horsham",
+        "Hume",
+        "Indigo",
+        "Kingston",
+        "Knox",
+        "Latrobe",
+        "Loddon",
+        "Macedon Ranges",
+        "Manningham",
+        "Mansfield",
+        "Maribyrnong",
+        "Maroondah",
+        "Melbourne",
+        "Melton",
+        "Merri-bek",
+        "Mildura",
+        "Mitchell",
+        "Moira",
+        "Monash",
+        "Moonee Valley",
+        "Moorabool",
+        "Mornington Peninsula",
+        "Mount Alexander",
+        "Moyne",
+        "Murrindindi",
+        "Nillumbik",
+        "Northern Grampians",
+        "Port Phillip",
+        "Pyrenees",
+        "South Gippsland",
+        "Southern Grampians",
+        "Stonnington",
+        "Strathbogie",
+        "Surf Coast",
+        "Swan Hill",
+        "Towong",
+        "Wangaratta",
+        "Warrnambool",
+        "Wellington",
+        "West Wimmera",
+        "Whitehorse",
+        "Whittlesea",
+        "Wodonga",
+        "Wyndham",
+        "Yarra",
+        "Yarra Ranges",
+        "Yarriambiack"
+        ]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/main/vic_lga.json",
+        "format": { "type": "topojson", "feature": "vic_lga" }
+      },
+      "mark": { "type": "geoshape", "fill": "#ddd", "stroke": "white" },
+      "encoding": {
+        "tooltip": { "field": "properties.ABB_NAME", "type": "nominal", "title": "LGA" }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/main/vic_lga.json",
+        "format": { "type": "topojson", "feature": "vic_lga" }
+      },
+      "transform": [
+        {
+          "lookup": "properties.ABB_NAME",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/refs/heads/main/secondary_enrolments_by_LGA.csv"
+            },
+            "key": "LGA_Name",
+            "fields": ["Total_Enrolments"]
+          }
+        },
+        {
+          "filter": "selectedLGA == null || datum.properties.ABB_NAME == selectedLGA"
+        }
+      ],
+      "mark": { "type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5 },
+      "encoding": {
+        "color": {
+          "field": "Total_Enrolments",
+          "type": "quantitative",
+          "scale": { 
+            "scheme": "reds",
+            "domain": [0,30000]
+          },
+          "legend": {
+            "title": "Total Enrolments",
+            "format": ".1s"  
+          }
+        },
+        "tooltip": [
+          { "field": "properties.ABB_NAME", "type": "nominal", "title": "LGA" },
+          { "field": "Total_Enrolments", "type": "quantitative", "title": "Enrolments", "format": "," }
+        ]
+      }
+    }
+  ]
+}

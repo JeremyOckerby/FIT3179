@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Victoria Schools Visualisations</title>
+  
+  <!-- Import Vega & Vega-Lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  
+  <style>
+    /* Optional: style both maps */
+    .vis-container {
+      margin-bottom: 50px;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>Victoria Schools Visualisations</h1>
+
+  <!-- Map 1 -->
+  <div id="vic_school_map" class="vis-container" style="width: 800px; height: 600px;"></div>
+
+  <div style="height: 100px;"></div>
+  <!-- Map 2 -->
+  <div id="school_location_map" class="vis-container" style="width: 800px; height: 600px;"></div>
+
+  <script type="text/javascript">
+    // Vega-Lite spec paths
+    var specVicSchoolMap = "vic_school_location_map.json";
+    var specSchoolLocation = "school_location_map.json";
+
+    // Embed Map 1
+    vegaEmbed('#vic_school_map', specVicSchoolMap, {actions: false})
+      .then(function(result) {
+        // Map 1 loaded
+      })
+      .catch(console.error);
+
+    // Embed Map 2
+    vegaEmbed('#school_location_map', specSchoolLocation, {actions: false})
+      .then(function(result) {
+        // Map 2 loaded
+      })
+      .catch(console.error);
+  </script>
+
+</body>
+</html>
