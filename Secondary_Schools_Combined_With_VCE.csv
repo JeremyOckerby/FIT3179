@@ -1,0 +1,408 @@
+LGA_Name,X,Y,Address_Town,School_Name,School_No,Year 7 Total,Year 8 Total,Year 9 Total,Year 10 Total,Year 11 Total,Year 12 Total,Secondary Total,School,Median_VCE_study_score,Percentage_of_study_scores_of_40_and_over,Percentage_of_VCE_students_applying_for_tertiary_places_through_the_Victorian_Tertiary_Admissions_Centre_(VTAC),Percentage_of_Vocational_Education_and_Training_(VET)_units_of_competency_completed,Number_of_students_awarded_the_VCE_Vocational_Major_(VM),Percentage_of_satisfactory_VCE_completions,Locality
+Banyule,145.066978,-37.690178,BUNDOORA,Parade College,20,368.0,362.0,332.0,340.0,311.0,286.0,1999.0,Parade College,30,4.8,73,86,63,99,BUNDOORA
+Melbourne,144.952883,-37.805971,WEST MELBOURNE,Simonds Catholic College,25,66.0,49.0,64.0,58.0,73.0,62.0,372.0,Simonds Catholic College,30,6.5,83,80,10,98,WEST MELBOURNE
+Port Phillip,144.997001,-37.859365,ST KILDA EAST,St Mary’s College Melbourne,26,69.0,49.0,65.0,84.0,88.0,77.0,432.0,St Mary's College Melbourne,28,3.3,68,87,12,97,ST KILDA EAST
+Ballarat,143.8234695,-37.55686069,BALLARAT,Loreto College,35,183.0,158.0,158.0,161.0,162.0,136.0,958.0,Loreto College,31,6.8,72,95,26,100,BALLARAT
+Mitchell,144.947629,-37.301013,KILMORE,Assumption College,111,269.0,267.0,250.0,259.0,236.0,192.0,1473.0,Assumption College,28,2.2,57,82,24,100,KILMORE
+Greater Bendigo,144.273362,-36.753444,BENDIGO,Catherine McAuley College,130,343.0,307.0,300.0,278.0,185.0,177.0,1590.0,Catherine McAuley College,28,5.3,72,85,21,98,BENDIGO
+Stonnington,145.051572,-37.861753,GLEN IRIS,Sacre Coeur,149,74.0,74.0,100.0,83.0,70.0,86.0,487.0,Sacre Coeur,35,24.6,99,100,-,100,GLEN IRIS
+Mitchell,145.140924,-37.019895,SEYMOUR,St Mary's College,161,82.0,67.0,53.0,51.0,44.0,36.0,333.0,St Mary's College,36,37.5,-,70,-,-,SEYMOUR
+Bayside,144.99678,-37.896734,BRIGHTON,Star of the Sea College,250,207.0,190.0,206.0,218.0,205.0,182.0,1208.0,Star of the Sea College,34,18.8,96,89,12,100,BRIGHTON
+Ballarat,143.870347,-37.611456,MOUNT CLEAR,Damascus College,265,230.0,234.0,208.0,199.0,200.0,162.0,1233.0,Damascus College,29,3.7,64,81,28,99,MOUNT CLEAR
+Boroondara,145.031105,-37.813858,KEW,Xavier College,404,182.0,157.0,179.0,186.0,249.0,242.0,1195.0,Xavier College,34,14.9,98,99,-,100,KEW
+Yarra,144.974409,-37.803711,FITZROY,Academy of Mary Immaculate,467,87.0,79.0,100.0,107.0,119.0,121.0,613.0,Academy of Mary Immaculate,32,11.3,93,100,-,100,FITZROY
+Yarra Ranges,145.3577545,-37.75075881,LILYDALE,Mount Lilydale Mercy College,474,286.0,286.0,277.0,272.0,246.0,209.0,1576.0,Mount Lilydale Mercy College,29,2.7,74,92,38,100,LILYDALE
+Colac-Otway,143.576934,-38.352034,COLAC,Trinity College Colac,495,151.0,136.6,115.0,137.0,129.0,91.0,759.6,Trinity College Colac,28,1.3,57,91,17,99,COLAC
+Kingston,145.065712,-37.984153,MENTONE,Kilbreda College,500,165.0,174.0,159.0,148.0,158.0,134.0,938.0,Kilbreda College,32,10.3,82,94,21,100,MENTONE
+Mornington Peninsula,145.0720043,-38.21825666,MORNINGTON,Padua College,501,493.0,466.0,405.0,438.0,415.0,336.0,2553.0,Padua College,29,4.6,62,84,45,99,MORNINGTON
+Greater Shepparton,145.4076363,-36.37470646,SHEPPARTON,Notre Dame College,515,306.0,281.0,293.0,306.0,272.6,238.0,1696.6,Notre Dame College,28,4.1,61,86,52,99,SHEPPARTON
+Moira,146.0092056,-36.00865887,YARRAWONGA,Sacred Heart College,518,53.0,54.0,42.0,34.0,32.0,29.0,244.0,Sacred Heart College,27,1.2,61,87,6,100,YARRAWONGA
+Campaspe,144.743369,-36.118153,ECHUCA,St Joseph's College,595,235.0,222.6,243.0,195.0,157.0,132.0,1184.6,St Joseph's College,28,1.0,65,86,5,95,ECHUCA
+Melbourne,144.942875,-37.792892,NORTH MELBOURNE,St Aloysius College,605,179.0,157.0,154.0,76.0,55.0,61.0,682.0,St Aloysius College,31,8.6,97,100,8,100,NORTH MELBOURNE
+Wellington,147.063779,-38.108707,SALE,Catholic College Sale,625,168.0,165.0,159.0,157.0,130.0,114.0,893.0,Catholic College Sale,29,7.0,58,93,14,100,SALE
+Campaspe,145.044713,-36.30955,KYABRAM,St Augustine's College,646,69.0,69.0,61.0,74.0,47.0,51.0,371.0,St Augustine's College,27,1.5,70,87,7,98,KYABRAM
+Corangamite,143.139564,-38.235001,CAMPERDOWN,Mercy Regional College,690,76.0,54.0,63.0,51.0,56.0,45.0,345.0,Mercy Regional College,27,5.0,61,94,11,100,CAMPERDOWN
+Moonee Valley,144.91429,-37.757202,ESSENDON,St Columba's College,707,171.0,192.0,171.0,166.0,171.0,172.0,1043.0,St Columba's College,31,7.0,91,99,15,99,ESSENDON
+Banyule,145.067586,-37.75793,HEIDELBERG,Our Lady of Mercy College,914,212.0,209.0,199.0,202.0,180.0,194.0,1196.0,Our Lady of Mercy College,32,9.6,93,91,8,99,HEIDELBERG
+Stonnington,145.032183,-37.857677,MALVERN,De La Salle College,956,138.0,138.0,151.0,123.0,164.0,151.0,865.0,De La Salle College,30,5.0,80,96,14,100,MALVERN
+Horsham,142.207946,-36.717313,HORSHAM,St Brigid's College,1122,38.0,36.0,41.0,57.0,32.0,26.0,230.0,St Brigid's College,27,1.9,69,100,4,100,HORSHAM
+Stonnington,145.014892,-37.848193,TOORAK,Loreto Mandeville Hall,1226,150.0,140.0,156.0,155.0,163.0,152.0,916.0,Loreto Mandeville Hall,35,26.4,99,93,-,100,TOORAK
+Whitehorse,145.129918,-37.818348,BOX HILL,Our Lady of Sion College,1287,183.0,146.0,164.0,153.0,150.0,141.0,937.0,Our Lady of Sion College,32,7.8,93,96,7,100,BOX HILL
+Hume,144.73903,-37.572644,SUNBURY,Salesian College Sunbury,1299,350.0,322.0,315.0,283.0,240.0,235.0,1745.0,Salesian College Sunbury,27,1.2,58,76,40,99,SUNBURY
+Darebin,145.00248,-37.770356,NORTHCOTE,Santa Maria College,1386,137.0,121.0,127.0,115.0,138.0,137.0,775.0,Santa Maria College,30,8.9,90,98,< 4,100,NORTHCOTE
+Stonnington,145.0246967,-37.8353971,TOORAK,St Kevin's College,1415,269.0,252.0,274.0,276.0,282.0,273.0,1626.0,St Kevin's College,35,23.7,97,100,-,100,TOORAK
+Kingston,145.068214,-37.991161,MENTONE,St Bede's College,1431,339.0,320.0,323.0,324.0,295.0,295.0,1896.0,St Bede's College,30,6.9,71,79,35,99,MENTONE
+Moonee Valley,144.8832,-37.749392,ESSENDON,St Bernard's College,1471,280.0,279.0,244.0,269.0,259.0,248.0,1579.0,St Bernard's College,31,8.0,74,95,25,99,ESSENDON
+Manningham,145.199541,-37.7918,DONVALE,Whitefriars College,1473,201.0,176.0,164.0,174.0,197.0,153.0,1065.0,Whitefriars College,30,7.0,80,95,12,99,DONVALE
+Manningham,145.082675,-37.774782,BULLEEN,Marcellin College,1495,189.0,169.0,177.0,208.0,206.0,194.0,1143.0,Marcellin College,31,5.1,82,97,21,100,BULLEEN
+Baw Baw,145.915266,-38.159029,WARRAGUL,Marist-Sion College,1497,221.0,212.0,191.0,171.0,157.0,136.0,1088.0,Marist - Sion College,27,2.1,57,92,18,95,WARRAGUL
+Southern Grampians,142.0494536,-37.74203709,HAMILTON,Monivae College,1528,115.0,107.0,97.0,103.0,96.0,81.0,599.0,Monivae College,27,1.2,43,99,20,97,HAMILTON
+Greater Dandenong,145.152017,-37.959071,SPRINGVALE,Killester College,1547,168.0,168.0,168.0,158.0,168.0,160.0,990.0,Killester College,30,5.3,96,97,4,100,SPRINGVALE
+Greater Geelong,144.330481,-38.130078,HERNE HILL,Clonard College,1551,165.0,168.0,158.0,154.0,156.0,151.0,952.0,Clonard College,29,5.4,69,88,21,100,HERNE HILL
+Monash,145.086083,-37.902163,HUGHESDALE,Sacred Heart Girls' College,1571,158.4,166.0,147.0,154.0,163.0,148.0,936.4,Sacred Heart Girls' College,32,10.6,94,96,10,99,HUGHESDALE
+Greater Dandenong,145.226256,-37.990229,DANDENONG,St John's Regional College,1588,129.0,119.0,82.0,103.0,80.0,103.0,616.0,St John's Regional College,27,3.0,85,82,9,97,DANDENONG
+East Gippsland,147.587656,-37.837096,BAIRNSDALE,Nagle College,1589,160.0,155.0,161.0,136.0,115.0,90.0,817.0,Nagle College,28,3.0,58,82,17,99,BAIRNSDALE
+Whitehorse,145.174107,-37.84779,VERMONT SOUTH,Emmaus College,1592,260.0,258.0,252.0,240.0,251.0,229.0,1490.0,Emmaus College,31,9.8,73,84,28,100,VERMONT SOUTH
+Moira,145.208748,-36.057656,NATHALIA,St Mary of the Angels College,1605,93.0,106.0,96.0,95.0,101.0,83.0,574.0,St Mary of the Angels School,26,2.1,62,72,22,99,NATHALIA
+Maroondah,145.234935,-37.823058,RINGWOOD,Aquinas College,1608,302.0,293.0,296.0,270.0,287.0,224.2,1672.2,Aquinas College,29,5.1,76,71,34,99,RINGWOOD
+Moonee Valley,144.897964,-37.756618,ABERFELDIE,Ave Maria College,1625,165.0,140.0,140.0,131.0,134.0,124.0,834.0,Ave Maria College,31,10.5,98,98,10,100,ABERFELDIE
+Hobsons Bay,144.811674,-37.863902,ALTONA,Mount St Joseph Girls' College,1635,222.0,211.0,211.3,209.0,188.0,185.0,1226.3,Mount St Joseph Girls' College,31,7.1,86,100,8,98,ALTONA
+Yarra Ranges,145.3588871,-37.9106377,BELGRAVE,Mater Christi College,1644,136.0,136.0,95.0,105.0,120.0,103.0,695.0,Mater Christi College,31,7.4,73,98,14,100,BELGRAVE
+Knox,145.295093,-37.89049,FERNTREE GULLY,St Joseph's College,1646,204.0,189.0,177.0,159.0,145.0,123.0,997.0,St Joseph's College,28,1.0,65,86,5,95,ECHUCA
+Monash,145.133255,-37.874671,MOUNT WAVERLEY,Avila College,1651,168.0,176.0,153.0,166.0,181.0,175.0,1019.0,Avila College,32,11.5,92,94,10,99,MOUNT WAVERLEY
+Hobsons Bay,144.842389,-37.831623,ALTONA NORTH,Emmanuel College,1654,447.0,472.0,444.0,420.0,374.0,387.0,2544.0,Emmanuel College,28,4.6,74,97,50,99,ALTONA NORTH
+Whittlesea,145.031414,-37.655184,EPPING,St Monica's College,1657,435.0,429.0,367.0,333.0,333.0,317.0,2214.0,St Monica's College,29,3.8,76,89,47,100,EPPING
+Merri-bek,144.964562,-37.730398,COBURG,Mercy College,1661,62.0,82.0,73.0,63.0,61.0,75.0,416.0,Mercy College,29,6.2,97,89,< 4,89,COBURG
+Frankston,145.138867,-38.13557,FRANKSTON,John Paul College,1670,250.0,253.0,242.0,224.0,177.0,172.0,1318.0,John Paul College,28,4.6,67,80,28,96,FRANKSTON
+Monash,145.166144,-37.915204,MULGRAVE,Mazenod College,1673,280.0,256.0,248.0,241.0,228.0,222.0,1475.0,Mazenod College,33,13.5,80,96,39,100,MULGRAVE
+Cardinia,145.373106,-38.052002,BEACONSFIELD,St Francis Xavier College,1766,436.0,507.0,503.6,471.0,426.0,485.0,2828.6,St Francis Xavier College,27,3.6,72,80,33,99,BEACONSFIELD
+Wodonga,146.8623901,-36.12961895,WODONGA,Catholic College Wodonga,1800,220.0,227.0,227.0,218.0,194.0,164.0,1250.0,Catholic College Wodonga,28,3.8,64,87,19,100,WODONGA
+Maribyrnong,144.8501,-37.785858,BRAYBROOK,Caroline Chisholm Catholic College,1801,296.0,276.0,261.0,258.0,250.0,224.0,1565.0,Caroline Chisholm Catholic Coll,31,5.5,78,82,37,99,BRAYBROOK
+Banyule,145.08073,-37.703396,WATSONIA,Loyola College,1810,253.0,241.0,247.0,249.0,225.0,240.0,1455.0,Loyola College,30,4.7,82,92,30,99,WATSONIA
+Melton,144.550411,-37.677246,MELTON,St Francis Catholic College,1811,485.0,399.0,349.0,241.0,215.0,175.0,1864.0,St Francis Catholic College,29,3.0,72,81,18,99,MELTON
+Greater Dandenong,145.195459,-37.940226,NOBLE PARK NORTH,Nazareth College,1899,192.0,176.0,164.0,175.0,148.0,125.8,980.8,Nazareth College,28,1.8,69,94,16,100,NOBLE PARK NORTH
+Swan Hill,143.556795,-35.341915,SWAN HILL,St Mary MacKillop College,1917,120.0,118.0,92.6,94.0,64.0,60.0,548.6,St Mary MacKillop College,29,5.0,69,93,8,100,SWAN HILL
+Casey,145.256866,-38.108411,CRANBOURNE,St Peter's College,1920,420.0,392.0,348.0,331.0,305.0,313.0,2109.0,St Peter's College,26,2.3,75,70,31,98,CRANBOURNE
+Hume,144.918263,-37.687856,BROADMEADOWS,Penola Catholic College,1949,223.0,237.0,218.0,236.0,231.0,245.0,1390.0,Penola Catholic College,28,3.1,76,77,29,99,BROADMEADOWS
+Wyndham,144.702055,-37.847676,TARNEIT,Thomas Carr College,1962,256.6,255.0,249.0,219.0,204.0,170.0,1353.6,Thomas Carr College,26,2.0,86,84,12,100,TARNEIT
+Latrobe,146.514247,-38.200895,TRARALGON,Lavalla Catholic College,2001,258.0,265.0,250.0,247.0,198.0,169.0,1387.0,Lavalla Catholic College,30,4.4,70,84,17,100,TRARALGON
+Merri-bek,144.9427365,-37.74119138,PASCOE VALE SOUTH,Antonine College,2010,88.0,78.0,91.0,91.0,67.0,78.0,493.0,Antonine College,26,3.3,75,90,5,95,PASCOE VALE SOUTH
+Whittlesea,145.091027,-37.643315,SOUTH MORANG,Marymede Catholic College,2032,385.0,329.0,231.0,244.0,200.0,175.0,1564.0,Marymede Catholic College,28,3.3,77,92,20,100,SOUTH MORANG
+Greater Bendigo,144.2216905,-36.73171249,MAIDEN GULLY,Marist College Bendigo,2098,163.0,166.1,136.8,149.0,92.2,102.0,809.1,Marist College Bendigo,27,2.8,64,90,12,99,MAIDEN GULLY
+Greater Shepparton,145.400337,-36.436121,KIALLA,St Anne's College,2224,34.0,53.0,51.0,43.0,45.0,35.0,261.0,St Anne's College,25,0.7,60,69,10,96,KIALLA
+Greater Geelong,144.356711,-38.219125,CHARLEMONT,Iona College Geelong,2231,311.0,260.0,260.0,227.0,154.2,144.0,1356.2,Iona College Geelong,33,6.1,-,93,-,-,CHARLEMONT
+Yarra,144.998477,-37.821915,RICHMOND,Ignatius Learning Centre,2240,0.0,0.0,0.0,0.0,28.0,5.0,33.0,Ignatius Learning Centre,-,-,-,-,-,-,RICHMOND
+Alpine,146.960928,-36.733105,Bright,Bright P-12 College,776,49.0,36.0,41.0,52.0,36.7,52.0,266.7,Bright P-12 College,29,5.1,44,100,4,97,BRIGHT
+Golden Plains,144.160668,-38.042004,Bannockburn,Bannockburn P-12 College,932,83.0,76.0,75.0,82.0,75.0,48.0,439.0,Bannockburn P-12 College,23,1.5,40,86,15,95,BANNOCKBURN
+Loddon,144.113679,-36.04736,Pyramid Hill,Pyramid Hill College,1712,9.0,8.0,15.0,15.0,0.0,0.0,47.0,Pyramid Hill College,I/D,I/D,I/D,79,-,I/D,PYRAMID HILL
+Loddon,144.113679,-36.04736,Pyramid Hill,Pyramid Hill College,1712,58.0,59.0,37.0,39.0,33.0,42.0,268.0,Pyramid Hill College,I/D,I/D,I/D,79,-,I/D,PYRAMID HILL
+East Gippsland,149.754296,-37.559427,Mallacoota,Mallacoota P-12 College,3515,13.0,7.0,11.0,7.0,8.0,7.0,53.0,Mallacoota P-12 College,33,18.2,50,75,< 4,100,MALLACOOTA
+East Gippsland,149.153022,-37.5697,Cann River,Cann River P-12 College,3920,2.0,4.0,4.0,5.0,2.0,2.0,19.0,Cann River P-12 College,24,0.0,100,92,-,100,CANN RIVER
+Corangamite,143.216741,-37.939591,Derrinallum,Derrinallum P-12 College,5375,4.0,2.0,5.0,6.0,3.0,3.7,23.7,Derrinallum P12 College,I/D,I/D,-,95,< 4,100,DERRINALLUM
+Buloke,142.853519,-35.509276,Sea Lake,Tyrrell College,5403,12.0,9.0,15.0,14.4,6.8,10.4,67.6,Tyrrell College,28,3.3,63,83,< 4,75,SEA LAKE
+West Wimmera,141.2985627,-37.03342876,Edenhope,Edenhope College,5432,13.0,14.0,6.0,15.0,14.0,11.7,73.7,Edenhope College,25,0.0,33,83,< 4,100,EDENHOPE
+Mildura,141.1773365,-35.26557452,Murrayville,Murrayville Community College,5433,3.0,8.0,9.0,10.0,7.0,4.5,41.5,Murrayville Community College,28,0.0,-,62,< 4,86,MURRAYVILLE
+Whittlesea,145.119368,-37.597553,Doreen,Hazel Glen College,5552,211.0,237.0,247.0,227.0,204.7,178.0,1304.7,Hazel Glen College,26,2.7,58,91,43,99,DOREEN
+Colac-Otway,143.660507,-38.753524,Apollo Bay,Apollo Bay P-12 College,6203,31.0,20.0,32.0,25.4,26.4,24.0,158.8,Apollo Bay P-12 College,30,10.7,64,85,< 4,100,APOLLO BAY
+Loddon,144.141446,-36.372222,Dingee,East Loddon P-12 College,6217,28.0,18.0,23.0,38.0,18.0,19.7,144.7,East Loddon P-12 College,28,1.7,65,64,< 4,88,DINGEE
+Colac-Otway,143.383051,-38.681844,Lavers Hill,Lavers Hill K-12 College,6231,2.0,2.6,4.0,8.0,7.0,12.0,35.6,Lavers Hill K-12 College,I/D,I/D,-,83,-,-,LAVERS HILL
+Campaspe,145.014399,-36.583317,Rushworth,Rushworth P-12 College,6238,29.0,24.0,28.0,20.0,23.0,15.0,139.0,Rushworth P-12 College,-,-,-,52,< 4,40,RUSHWORTH
+Banyule,145.072218,-37.724746,Macleod,Macleod College,6242,82.0,70.0,89.0,86.0,74.0,64.1,465.1,Macleod College,28,1.8,78,89,9,97,MACLEOD
+Yarra Ranges,145.349444,-37.868244,Sassafras,Sherbrooke Community School,6252,7.0,11.0,15.0,24.0,19.0,14.0,90.0,Sherbrooke Community School,26,0.0,42,79,< 4,92,SASSAFRAS
+Mildura,141.593839,-34.390411,Werrimull,Werrimull P-12 School,6257,3.0,4.0,2.0,0.0,5.0,0.0,14.0,Werrimull P-12 College,I/D,I/D,I/D,70,-,I/D,WERRIMULL
+Corangamite,143.145435,-38.239731,Camperdown,Camperdown College,6259,30.0,42.0,26.0,33.0,30.0,28.0,189.0,Camperdown College,28,0.0,56,81,6,100,CAMPERDOWN
+Corangamite,142.975889,-38.484056,Timboon,Timboon P-12 School,6260,45.0,37.0,44.4,38.7,47.7,29.2,242.0,Timboon P-12 School,24,1.6,53,99,< 4,93,TIMBOON
+Darebin,145.025701,-37.76204,Thornbury,Virtual School Victoria,6261,53.5,137.4,272.6,399.9,886.2,1049.3,2798.9,Virtual School Victoria,27,3.3,34,82,-,90,THORNBURY
+Loddon,143.61877,-36.417022,Wedderburn,Wedderburn College,6262,16.0,27.0,19.0,17.0,21.5,13.7,114.2,Wedderburn College,20,0.0,50,72,< 4,100,WEDDERBURN
+Whittlesea,145.005071,-37.609492,Wollert,Edgars Creek Secondary College,7081,218.0,203.0,230.0,263.0,237.7,183.8,1335.5,Edgars Creek Secondary College,26,1.0,61,67,26,88,WOLLERT
+Hume,144.890252,-37.598288,Craigieburn,Elevation Secondary College,7082,211.4,253.0,220.0,198.4,177.2,115.9,1175.9,Elevation Secondary College,30,9.4,-,66,-,-,CRAIGIEBURN
+Corangamite,143.0636059,-38.32403633,Cobden,Cobden Technical School,7088,23.0,16.4,23.0,16.0,27.0,13.0,118.4,Cobden Technical School,24,0.0,20,77,5,100,COBDEN
+Casey,145.271028,-38.075386,Cranbourne,Lyndhurst Secondary College,7108,140.2,133.0,149.0,139.0,161.6,119.0,841.8,Lyndhurst Secondary College,27,1.5,46,51,26,98,CRANBOURNE
+Hepburn,144.151851,-37.33466597,Daylesford,Daylesford Secondary College,7115,64.0,88.0,75.0,80.0,69.8,48.5,425.3,Daylesford Secondary College,29,3.5,49,83,13,97,DAYLESFORD
+Mornington Peninsula,145.013582,-38.342636,Dromana,Dromana Secondary College,7122,278.0,287.0,324.0,316.0,296.2,306.9,1808.1,Dromana Secondary College,32,8.7,58,100,53,100,DROMANA
+Greater Geelong,144.327441,-38.210399,Grovedale,Grovedale College,7183,147.0,128.0,121.0,119.0,109.0,90.6,714.6,Grovedale College,25,1.1,49,91,21,98,GROVEDALE
+Mildura,142.1647031,-34.23232674,Irymple,Irymple Secondary College,7198,144.0,166.0,156.0,161.0,0.0,0.0,627.0,Irymple Secondary College,-,-,-,92,-,-,IRYMPLE
+Whittlesea,145.0126913,-37.66678514,Lalor,Peter Lalor Secondary College,7217,0.0,0.0,0.0,25.0,58.0,32.0,115.0,Peter Lalor Secondary College,-,-,23,52,19,86,LALOR
+Yarra Ranges,145.3414068,-37.7458221,Lilydale,Lilydale Heights College,7219,195.0,155.0,160.0,169.0,120.0,88.0,887.0,Lilydale Heights College,26,3.7,64,71,11,95,LILYDALE
+Melton,144.568689,-37.708365,Melton South,Staughton College,7247,309.0,296.0,298.0,288.0,285.0,222.2,1698.2,Staughton College,25,1.5,53,67,45,95,MELTON SOUTH
+Mildura,142.147985,-34.19573,Mildura,Chaffey Secondary College,7250,179.0,160.0,175.0,182.8,0.0,0.0,696.8,Chaffey Secondary College,I/D,I/D,I/D,83,-,I/D,MILDURA
+Glen Eira,145.059798,-37.927357,Bentleigh East,Bentleigh Secondary College,7255,166.0,162.0,165.0,154.8,155.6,129.1,932.5,Bentleigh Secondary College,30,5.6,64,74,16,92,BENTLEIGH EAST
+Ballarat,143.876673,-37.607965,Mount Clear,Mount Clear College,7267,158.0,169.0,181.3,177.0,172.7,142.5,1000.5,Mount Clear College,26,1.4,48,77,20,86,MOUNT CLEAR
+Moonee Valley,144.886183,-37.746679,Niddrie,Rosehill Secondary College,7275,206.0,191.0,182.0,208.0,179.0,160.0,1126.0,Rosehill Secondary College,29,1.7,70,95,23,99,NIDDRIE
+Whittlesea,145.1201751,-37.5150463,Whittlesea,Whittlesea Secondary College,7408,112.0,145.0,135.0,153.8,114.2,71.2,731.2,Whittlesea Secondary College,24,1.7,75,99,12,97,WHITTLESEA
+Murrindindi,145.701477,-37.19449,Alexandra,Alexandra Secondary College,7505,49.0,57.0,53.0,74.9,56.6,42.6,333.1,Alexandra Secondary College,24,2.6,51,51,5,91,ALEXANDRA
+Boroondara,145.045067,-37.83988,Hawthorn East,Auburn High School,7526,170.0,148.0,139.0,160.0,115.9,127.7,860.6,Auburn High School,31,8.6,86,94,-,99,HAWTHORN EAST
+Boroondara,145.0767724,-37.79785922,Balwyn North,Balwyn High School,7550,350.0,345.0,337.0,301.8,459.4,413.8,2207.0,Balwyn High School,32,14.7,92,78,< 4,100,BALWYN NORTH
+Knox,145.261998,-37.83903,Bayswater,Bayswater Secondary College,7560,63.0,62.0,35.4,28.0,38.6,36.4,263.4,Bayswater Secondary College,26,0.0,44,53,9,93,BAYSWATER
+Pyrenees,143.382486,-37.438844,Beaufort,Beaufort Secondary College,7565,29.0,47.0,36.0,36.0,34.9,32.6,215.5,Beaufort Secondary College,27,0.0,32,60,8,88,BEAUFORT
+Bayside,145.034078,-37.978396,Beaumaris,Beaumaris Secondary College,7566,121.0,125.0,166.0,168.0,168.8,150.8,899.6,Beaumaris Secondary College,30,5.9,77,72,10,99,BEAUMARIS
+Indigo,146.690764,-36.34722,Beechworth,Beechworth Secondary College,7575,72.0,62.0,42.9,55.0,37.3,26.2,295.4,Beechworth Secondary College,28,6.5,60,50,-,96,BEECHWORTH
+Greater Geelong,144.330562,-38.175654,Belmont,Belmont High School,7585,235.0,230.0,195.0,246.6,186.1,201.8,1294.5,Belmont High School,29,4.5,55,94,12,97,BELMONT
+Casey,145.365438,-38.031398,Berwick,Berwick Secondary College,7603,240.0,287.0,301.0,310.0,275.0,255.0,1668.0,Berwick Secondary College,29,2.6,61,94,36,97,BERWICK
+Whitehorse,145.149893,-37.81037,Blackburn,Blackburn High School,7610,213.0,206.2,212.0,235.0,241.0,181.0,1288.2,Blackburn High School,31,8.1,78,84,17,100,BLACKBURN
+Whitehorse,145.137208,-37.820003,Box Hill,Box Hill High School,7635,253.0,244.0,259.0,249.0,295.0,234.0,1534.0,Box Hill High School,32,11.8,89,87,10,98,BOX HILL
+Maribyrnong,144.847537,-37.778257,Braybrook,Braybrook College,7645,221.0,229.0,234.0,242.0,233.0,223.0,1382.0,Braybrook College,31,8.1,83,93,42,98,BRAYBROOK
+Monash,145.1663432,-37.89950842,Glen Waverley,Brentwood Secondary College,7647,228.0,280.0,268.0,283.0,230.2,265.0,1554.2,Brentwood Secondary College,30,5.9,83,87,15,100,GLEN WAVERLEY
+Bayside,145.019119,-37.920156,Brighton East,Brighton Secondary College,7650,112.0,139.4,135.0,145.3,172.8,159.6,864.1,Brighton Secondary College,30,6.3,85,89,4,99,BRIGHTON EAST
+Mitchell,145.040033,-37.204375,Broadford,Broadford Secondary College,7655,152.0,147.0,156.0,153.0,134.0,87.8,829.8,Broadford Secondary College,22,0.7,54,62,27,98,BROADFORD
+Moonee Valley,144.897755,-37.747117,Essendon,Buckley Park College,7670,194.0,136.0,143.0,129.0,136.0,164.8,902.8,Buckley Park College,29,5.7,83,63,8,99,ESSENDON
+Boroondara,145.072821,-37.830151,Canterbury,Camberwell High School,7680,88.4,124.0,141.0,147.0,141.9,164.8,807.1,Camberwell High School,30,8.5,82,89,10,92,CANTERBURY
+Glenelg,141.387493,-37.588796,Casterton,Casterton Secondary College,7695,24.0,21.0,17.0,18.0,15.9,10.9,106.8,Casterton Secondary College,28,0.0,56,100,< 4,100,CASTERTON
+Kingston,145.068676,-37.953762,Cheltenham,Cheltenham Secondary College,7720,96.0,117.0,116.0,141.0,172.0,126.0,768.0,Cheltenham Secondary College,28,2.1,74,74,16,99,CHELTENHAM
+Moira,145.654121,-35.913605,Cobram,Cobram Secondary College,7725,92.0,97.0,81.0,97.0,63.4,33.4,463.8,Cobram Secondary College,24,0.9,43,69,8,98,COBRAM
+Gannawarra,144.226425,-35.813503,Cohuna,Cohuna Secondary College,7735,38.0,34.0,40.0,23.0,28.6,23.6,187.2,Cohuna Secondary College,28,4.2,67,82,< 4,100,COHUNA
+Casey,145.286136,-38.107591,Cranbourne,Cranbourne Secondary College,7747,167.0,178.0,184.0,184.0,210.0,216.0,1139.0,Cranbourne Secondary College,24,0.3,67,87,68,97,CRANBOURNE
+Maroondah,145.281261,-37.78935,Croydon,Croydon Community School,7757,19.0,24.0,21.0,32.0,39.0,14.0,149.0,Croydon Community School,-,-,9,87,9,82,CROYDON
+Buloke,142.973962,-36.370779,Donald,Donald High School,7775,18.0,17.0,16.0,15.2,12.0,15.0,93.2,Donald High School,29,8.3,64,62,5,100,DONALD
+Manningham,145.138053,-37.784581,Doncaster,Doncaster Secondary College,7776,177.0,198.0,182.0,194.0,217.2,202.4,1170.6,Doncaster Secondary College,32,13.0,74,97,7,98,DONCASTER
+Baw Baw,145.850978,-38.144659,Drouin,Drouin Secondary College,7785,193.0,185.0,221.0,222.2,176.6,151.0,1148.8,Drouin Secondary College,25,1.1,43,100,34,98,DROUIN
+Greater Bendigo,144.261627,-36.720062,Eaglehawk,Eaglehawk Secondary College,7790,141.0,132.0,154.0,138.8,0.0,0.0,565.8,Eaglehawk Secondary College,-,-,-,69,-,-,EAGLEHAWK
+Nillumbik,145.141725,-37.724436,Eltham,Eltham High School,7805,203.0,183.0,223.0,277.7,218.0,248.0,1352.7,Eltham High School,29,5.3,66,84,4,99,ELTHAM
+Port Phillip,144.985203,-37.88232,Elwood,Elwood College,7810,117.0,126.0,124.0,133.0,160.6,137.2,797.8,Elwood College,31,9.3,70,88,< 4,99,ELWOOD
+Whittlesea,145.033426,-37.644001,Epping,Epping Secondary College,7813,124.0,157.0,160.0,213.0,189.0,146.8,989.8,Epping Secondary College,28,5.2,62,83,53,98,EPPING
+Strathbogie,145.5648,-36.758203,Euroa,Euroa Secondary College,7820,46.0,43.0,36.0,54.0,56.3,41.1,276.4,Euroa Secondary College,26,2.8,39,82,9,90,EUROA
+Knox,145.259037,-37.87321,Knoxfield,Fairhills High School,7823,83.0,76.0,68.0,77.0,48.0,45.8,397.8,Fairhills High School,26,0.0,56,89,14,93,KNOXFIELD
+Maribyrnong,144.8937633,-37.79104291,Footscray,Footscray High School,7842,183.0,192.9,212.2,223.0,264.0,258.2,1333.3,Footscray High School,29,4.2,70,67,17,99,FOOTSCRAY
+South Gippsland,146.197413,-38.651737,Foster,Foster Secondary College,7845,52.0,42.0,55.0,43.4,39.9,32.8,265.1,Foster Secondary College,30,3.0,45,64,7,90,FOSTER
+Frankston,145.128951,-38.1621885,Frankston,Frankston High School,7850,347.0,346.0,299.0,363.0,324.0,294.8,1973.8,Frankston High School,31,9.6,69,84,16,99,FRANKSTON
+Greater Geelong,144.373726,-38.153026,East Geelong,Geelong High School,7855,199.0,155.0,170.0,159.4,162.4,128.8,974.6,Geelong High School,27,5.1,44,88,7,99,EAST GEELONG
+Macedon Ranges,144.5847741,-37.49811364,Gisborne,Gisborne Secondary College,7857,157.0,171.0,155.0,188.0,156.5,145.7,973.2,Gisborne Secondary College,27,0.8,49,61,45,100,GISBORNE
+Banyule,145.061977,-37.707501,Bundoora,Bundoora Secondary College,7874,108.0,105.0,103.0,103.0,68.2,58.0,545.2,Bundoora Secondary College,26,1.7,41,74,9,89,BUNDOORA
+Yarra Ranges,145.530807,-37.643586,Healesville,Healesville High School,7900,58.0,66.0,50.0,49.0,63.7,42.9,329.6,Healesville High School,27,1.6,62,87,4,88,HEALESVILLE
+Monash,145.17682,-37.865409,Glen Waverley,Highvale Secondary College,7918,208.0,217.0,179.0,231.0,213.0,173.0,1221.0,Highvale Secondary College,29,7.3,86,81,-,98,GLEN WAVERLEY
+Gannawarra,143.913802,-35.725651,Kerang,Kerang Technical High School,7945,42.0,38.0,59.0,41.0,33.0,26.4,239.4,Kerang Technical High School,26,2.6,41,65,-,100,KERANG
+Boroondara,145.063358,-37.795546,Kew East,Kew High School,7950,142.0,145.0,158.0,149.0,204.7,202.8,1001.5,Kew High School,30,7.1,95,95,15,100,KEW EAST
+Whitehorse,145.117561,-37.80219,Mont Albert North,Koonung Secondary College,7954,229.0,193.0,182.0,222.0,201.0,187.2,1214.2,Koonung Secondary College,32,9.8,84,84,12,97,MONT ALBERT NORTH
+Campaspe,145.056207,-36.317476,Kyabram,Kyabram P-12 College,7965,87.0,81.0,105.8,95.0,94.8,41.9,505.5,Kyabram P-12 College,23,0.0,36,98,9,98,KYABRAM
+Whittlesea,145.0306228,-37.67265939,Lalor,Lalor Secondary College,7985,188.0,187.0,189.0,207.0,193.8,177.4,1142.2,Lalor Secondary College,26,2.3,69,73,28,98,LALOR
+Yarra Ranges,145.343917,-37.760697,Lilydale,Lilydale High School,7995,277.0,291.0,298.0,230.0,200.8,151.9,1448.7,Lilydale High School,27,2.0,45,88,16,100,LILYDALE
+Surf Coast,143.9738904,-38.53917804,Lorne,Lorne P-12 College,7997,20.0,17.8,15.0,24.0,15.8,9.0,101.6,Lorne P-12 College,23,3.9,100,96,< 4,100,LORNE
+Greater Dandenong,145.206712,-37.958765,Dandenong North,Lyndale Secondary College,8000,142.0,150.0,135.0,159.0,152.0,116.7,854.7,Lyndale Secondary College,26,3.5,82,76,18,97,DANDENONG NORTH
+Yarra,145.002257,-37.816477,Richmond,Bindjiroo Yaluk Community School,8003,6.0,10.0,13.4,17.0,25.8,13.8,86.0,Bindjiroo Yaluk Community School,-,-,-,21,< 4,50,RICHMOND
+Wellington,146.982424,-37.964888,Maffra,Maffra Secondary College,8005,101.0,95.0,124.0,98.0,79.0,61.0,558.0,Maffra Secondary College,28,1.0,49,98,< 4,97,MAFFRA
+Mansfield,146.088565,-37.062676,Mansfield,Mansfield Secondary College,8010,77.0,89.0,87.2,78.9,84.0,62.5,478.6,Mansfield Secondary College,29,6.3,35,90,24,100,MANSFIELD
+Stonnington,144.995314,-37.836829,South Yarra,Melbourne High School,8025,0.0,0.0,312.0,367.0,352.0,376.0,1407.0,Melbourne High School,36,28.5,96,67,-,100,SOUTH YARRA
+Melton,144.568216,-37.681753,Melton,Melton Secondary College,8027,242.0,258.0,289.0,231.0,282.0,161.0,1463.0,Melton Secondary College,24,1.2,50,58,34,83,MELTON
+Mildura,142.1453901,-34.19800387,Mildura,Mildura Senior College,8045,0.0,1.0,2.0,2.0,552.7,468.3,1026.0,Mildura Senior College,26,2.8,46,84,48,94,MILDURA
+Yarra Ranges,145.4278068,-37.88317535,Monbulk,Monbulk College,8065,110.4,112.0,137.2,99.0,73.5,66.4,598.5,Monbulk College,25,5.1,57,79,14,98,MONBULK
+Yarra Ranges,145.3142304,-37.77508326,Mooroolbark,Mooroolbark College,8071,154.0,170.0,157.0,183.0,147.7,131.4,943.1,Mooroolbark College,28,2.1,53,64,27,91,MOOROOLBARK
+Kingston,145.092675,-38.012243,Mordialloc,Mordialloc College,8075,183.0,198.0,219.0,238.1,195.0,198.0,1231.1,Mordialloc College,30,7.0,77,78,18,99,MORDIALLOC
+Glen Eira,145.048545,-37.912204,Mckinnon,McKinnon Secondary College,8125,529.0,537.0,515.0,520.0,458.6,448.0,3007.6,McKinnon Secondary College,33,17.7,88,94,18,100,MCKINNON
+Moira,145.208438,-36.059901,Nathalia,Nathalia Secondary College,8140,18.0,21.0,18.0,18.0,24.0,13.0,112.0,Nathalia Secondary College,20,2.9,40,75,< 4,90,NATHALIA
+Greater Geelong,144.395201,-38.171133,Newcomb,Newcomb Secondary College,8151,89.0,114.0,91.0,73.0,82.0,66.0,515.0,Newcomb Secondary College,25,1.0,14,69,19,88,NEWCOMB
+Darebin,144.989706,-37.774156,Northcote,Northcote High School,8180,248.0,222.0,267.5,283.5,322.3,315.1,1658.4,Northcote High School,30,8.5,88,90,13,99,NORTHCOTE
+Maroondah,145.237605,-37.799752,Ringwood,Norwood Secondary College,8185,199.0,190.0,196.0,181.0,184.6,146.7,1097.3,Norwood Secondary College,29,5.7,55,83,20,97,RINGWOOD
+Moira,145.446271,-36.079948,Numurkah,Numurkah Secondary College,8190,49.0,49.0,53.0,46.0,35.6,36.9,269.5,Numurkah Secondary College,24,0.0,44,63,< 4,78,NUMURKAH
+Greater Geelong,144.364137,-38.231762,Armstrong Creek,Oberon High School,8210,178.0,175.0,202.0,209.0,185.7,145.5,1095.2,Oberon High School,28,4.0,50,71,12,97,ARMSTRONG CREEK
+Mildura,142.322608,-35.064571,Ouyen,Ouyen P-12 College,8220,13.0,23.0,23.0,20.0,13.0,10.4,102.4,Ouyen P-12 College,29,0.0,40,95,< 4,100,OUYEN
+Cardinia,145.471002,-38.068997,Pakenham,Pakenham Secondary College,8223,254.0,189.0,193.0,156.0,163.4,91.2,1046.6,Pakenham Secondary College,27,1.2,73,82,22,99,PAKENHAM
+Kingston,145.093501,-37.990301,Mordialloc,Parkdale Secondary College,8225,169.1,190.0,250.5,268.6,249.6,289.9,1417.7,Parkdale Secondary College,30,5.9,57,97,22,99,MORDIALLOC
+Stonnington,144.9911611,-37.85174882,Windsor,Prahran High School,8231,97.0,90.0,81.0,91.0,106.1,100.8,565.9,Prahran High School,30,5.3,80,79,< 4,97,WINDSOR
+Darebin,145.006401,-37.741692,Preston,Preston High School,8241,271.0,232.0,243.0,222.0,159.6,152.9,1280.5,Preston High School,29,4.7,94,87,5,97,PRESTON
+Greater Geelong,144.557527,-38.190662,Drysdale,Bellarine Secondary College,8250,196.0,197.0,233.0,200.7,204.5,136.6,1167.8,Bellarine Secondary College,28,4.9,45,67,28,94,DRYSDALE
+Hindmarsh,141.9966997,-35.89446757,Rainbow,Rainbow P-12 College,8256,12.0,6.0,15.0,8.0,7.9,10.5,59.4,Rainbow P-12 College,24,2.9,33,100,< 4,100,RAINBOW
+Mildura,142.195452,-34.298804,Red Cliffs,Red Cliffs Secondary College,8260,78.0,75.0,65.0,66.0,35.8,26.0,373.8,Red Cliffs Secondary College,23,0.0,43,78,-,86,RED CLIFFS
+Maroondah,145.239147,-37.816606,Ringwood,Ringwood Secondary College,8270,244.0,256.0,267.0,260.0,251.7,245.7,1524.4,Ringwood Secondary College,30,7.9,71,92,39,99,RINGWOOD
+Yarra,145.002804,-37.817408,Richmond,Richmond High School,8271,66.0,66.0,80.0,78.0,95.0,103.7,488.7,Richmond High School,28,6.2,78,71,-,94,RICHMOND
+Swan Hill,142.7815451,-34.58888676,Robinvale,Robinvale College,8276,21.0,18.0,19.0,28.0,16.7,21.3,124.0,Robinvale College,23,0.0,-,84,4,100,ROBINVALE
+Campaspe,144.6986963,-36.35277863,Rochester,Rochester Secondary College,8280,80.0,57.0,70.0,63.0,55.0,26.0,351.0,Rochester Secondary College,27,0.9,56,75,5,100,ROCHESTER
+Mornington Peninsula,144.887447,-38.367615,Rosebud,Rosebud Secondary College,8290,207.0,189.0,171.0,157.0,137.0,126.0,987.0,Rosebud Secondary College,27,2.2,41,75,7,96,ROSEBUD
+Indigo,146.452103,-36.062564,Rutherglen,Rutherglen High School,8300,61.0,56.0,62.0,50.4,42.2,38.9,310.5,Rutherglen High School,21,0.0,32,79,9,100,RUTHERGLEN
+Knox,145.2362,-37.888642,Scoresby,Scoresby Secondary College,8307,58.0,53.0,30.0,33.0,40.0,42.0,256.0,Scoresby Secondary College,28,5.6,48,72,8,100,SCORESBY
+Brimbank,144.808411,-37.745532,St Albans,St Albans Secondary College,8330,320.0,263.0,262.0,314.0,312.0,241.0,1712.0,St Albans Secondary College,31,8.8,80,69,56,94,ST ALBANS
+Northern Grampians,143.250936,-36.609547,St Arnaud,St Arnaud Secondary College,8335,30.0,31.0,27.0,29.0,31.8,14.2,163.0,St Arnaud Secondary College,26,0.0,40,68,-,80,ST ARNAUD
+Glen Eira,145.034173,-37.87398,Caulfield North,Oakwood School,8337,1.0,35.0,89.8,147.0,176.8,163.0,612.6,Oakwood School,I/D,I/D,-,47,-,-,CAULFIELD NORTH
+Moonee Valley,144.926643,-37.73695,Strathmore,Strathmore Secondary College,8345,338.0,318.0,302.0,326.0,356.0,320.9,1960.9,Strathmore Secondary College,30,5.9,80,33,10,99,STRATHMORE
+Hume,144.728672,-37.574279,Sunbury,Sunbury College,8350,165.0,154.0,163.0,188.7,156.7,152.0,979.4,Sunbury College,27,1.3,45,83,47,100,SUNBURY
+Merri-bek,144.962338,-37.771817,Brunswick,Sydney Road Community School,8368,13.0,16.0,17.0,19.0,20.0,19.9,104.9,Sydney Road Community School,22,0.0,25,61,6,92,BRUNSWICK
+Towong,147.172667,-36.220441,Tallangatta,Tallangatta Secondary College,8370,64.0,65.0,63.0,48.0,44.6,36.5,321.1,Tallangatta Secondary College,27,0.0,24,100,13,100,TALLANGATTA
+Whittlesea,145.0019385,-37.67871605,Thomastown,Thomastown Secondary College,8383,83.0,62.0,72.0,83.0,91.7,59.6,451.3,Thomastown Secondary College,24,1.4,64,78,-,89,THOMASTOWN
+Baw Baw,146.158302,-38.214568,Trafalgar,Trafalgar High School,8395,116.0,112.0,122.0,136.0,107.5,102.6,696.1,Trafalgar High School,27,5.9,53,91,15,99,TRAFALGAR
+Melbourne,144.95538,-37.796982,Parkville,University High School,8405,343.0,293.0,298.0,325.0,373.8,350.6,1983.4,University High School,31,9.0,88,54,7,97,PARKVILLE
+Hume,144.930331,-37.63041,Roxburgh Park,Roxburgh College,8407,163.0,153.0,165.4,190.4,179.0,166.9,1052.7,Roxburgh College,23,0.7,60,74,57,93,ROXBURGH PARK
+Yarra Ranges,145.623933,-37.79209352,Yarra Junction,Upper Yarra Secondary College,8410,142.0,135.5,143.0,134.0,107.9,84.2,746.6,Upper Yarra Secondary College,27,2.1,64,80,15,94,YARRA JUNCTION
+Yarra Ranges,145.335475,-37.904357,Upwey,Upwey High School,8415,140.0,119.0,129.7,149.6,116.8,105.6,760.7,Upwey High School,27,1.5,52,71,11,92,UPWEY
+Whitehorse,145.199701,-37.844117,Vermont,Vermont Secondary College,8420,309.0,285.0,288.0,261.0,265.6,241.8,1650.4,Vermont Secondary College,32,9.8,78,67,12,100,VERMONT
+Casey,145.34741,-38.05368819,Berwick,Kambrya College,8421,442.0,478.0,448.0,390.0,337.0,273.8,2368.8,Kambrya College,31,5.6,66,85,65,99,BERWICK
+Wangaratta,146.307723,-36.344898,Wangaratta,Wangaratta High School,8425,109.0,124.0,113.4,108.0,90.0,65.9,610.3,Wangaratta High School,26,1.9,55,68,< 4,89,WANGARATTA
+Knox,145.229974,-37.857598,Wantirna,Wantirna College,8428,229.0,244.0,261.0,272.0,255.9,210.7,1472.6,Wantirna College,29,3.6,65,78,40,100,WANTIRNA
+Manningham,145.184222,-37.748269,Warrandyte,Warrandyte High School,8437,40.0,43.0,42.0,49.0,69.0,30.0,273.0,Warrandyte High School,26,0.8,53,81,5,100,WARRANDYTE
+Monash,145.169378,-37.934467,Mulgrave,Wellington Secondary College,8462,255.0,244.0,233.0,283.9,337.9,279.7,1633.5,Wellington Secondary College,29,4.7,79,95,29,99,MULGRAVE
+Wyndham,144.668744,-37.905536,Werribee,Werribee Secondary College,8465,255.0,249.0,316.0,278.0,282.7,252.8,1633.5,Werribee Secondary College,28,5.2,83,73,17,95,WERRIBEE
+East Gippsland,147.6049997,-37.82871098,Bairnsdale,Bairnsdale Secondary College,8466,260.0,221.0,203.0,230.1,205.3,129.7,1249.1,Bairnsdale Secondary College,26,1.1,44,85,26,96,BAIRNSDALE
+Kingston,145.136577,-37.940312,Clayton South,Westall Secondary College,8470,93.0,103.0,110.0,136.0,129.0,124.0,695.0,Westall Secondary College,24,3.0,59,64,28,96,CLAYTON SOUTH
+Hobsons Bay,144.895024,-37.862855,Williamstown,Williamstown High School,8475,265.0,253.0,250.0,264.0,256.2,245.7,1533.9,Williamstown High School,31,10.3,77,67,33,99,WILLIAMSTOWN
+Wellington,146.685408,-38.56743,Yarram,Yarram Secondary College,8490,43.8,39.8,31.2,56.3,47.7,48.5,267.3,Yarram Secondary College,25,1.4,37,91,5,87,YARRAM
+Ballarat,143.892275,-37.559122,Ballarat East,Woodmans Hill Secondary College,8491,102.6,122.0,107.0,103.9,103.4,70.9,609.8,Woodmans Hill Secondary College,27,5.3,46,67,16,91,BALLARAT EAST
+Murrindindi,145.408536,-37.215011,Yea,Yea High School,8500,31.0,38.0,45.0,60.0,70.4,36.1,280.5,Yea High School,25,0.0,43,80,5,86,YEA
+Glen Eira,145.038006,-37.8857,Caulfield East,Glen Eira College,8704,170.0,144.0,161.0,134.0,162.0,122.7,893.7,Glen Eira College,31,6.5,79,86,8,98,CAULFIELD EAST
+Hume,144.9359541,-37.60875112,Craigieburn,Craigieburn Secondary College,8705,148.0,168.0,147.0,173.9,166.5,164.2,967.6,Craigieburn Secondary College,21,0.7,76,82,33,96,CRAIGIEBURN
+Cardinia,145.4587437,-37.92427055,Emerald,Emerald Secondary College,8707,111.0,112.0,102.0,111.0,104.0,101.3,641.3,Emerald Secondary College,28,1.6,52,90,16,100,EMERALD
+Darebin,145.029772,-37.722259,Reservoir,Reservoir High School,8708,121.0,115.0,102.0,111.0,99.9,85.4,634.3,Reservoir High School,28,3.8,62,90,13,94,RESERVOIR
+Frankston,145.19018,-38.159291,Langwarrin,Elisabeth Murdoch College,8722,283.0,259.0,280.5,254.0,276.6,239.6,1592.7,Elisabeth Murdoch College,31,10.8,40,88,76,100,LANGWARRIN
+Whitehorse,145.163728,-37.848519,Burwood East,Forest Hill College,8724,50.0,55.0,49.0,66.0,81.0,72.0,373.0,Forest Hill College,29,2.1,58,87,15,94,BURWOOD EAST
+Northern Grampians,142.789787,-37.061954,Stawell,Stawell Secondary College,8731,80.0,59.0,52.7,53.0,65.0,36.0,345.7,Stawell Secondary College,23,2.4,23,57,14,91,STAWELL
+Knox,145.2370885,-37.92388682,Rowville,Rowville Secondary College,8734,337.0,326.0,352.0,322.0,301.6,259.1,1897.7,Rowville Secondary College,25,2.1,41,86,83,96,ROWVILLE
+Bass Coast,145.5978801,-38.61094209,Wonthaggi,Bass Coast College,8736,321.8,319.8,309.0,291.6,258.7,203.5,1704.4,Bass Coast College,28,3.6,53,64,29,95,WONTHAGGI
+Bayside,145.023034,-37.956709,Sandringham,Sandringham College,8739,211.0,192.0,186.0,206.5,143.1,153.9,1092.5,Sandringham College,31,6.9,69,78,13,100,SANDRINGHAM
+Yarra,144.987476,-37.784911,Fitzroy North,Fitzroy High School,8742,38.0,51.0,55.0,76.0,101.0,112.4,433.4,Fitzroy High School,28,3.7,74,62,6,93,FITZROY NORTH
+Monash,145.103328,-37.864527,Ashwood,Ashwood High School,8743,221.0,185.0,186.0,149.0,136.0,116.6,993.6,Ashwood High School,31,8.1,72,79,18,99,ASHWOOD
+South Gippsland,145.9612411,-38.47868659,Leongatha,Leongatha Secondary College,8745,108.0,110.0,111.0,108.2,93.8,83.3,614.3,Leongatha Secondary College,29,1.0,60,79,28,99,LEONGATHA
+Nillumbik,145.167403,-37.672828,Diamond Creek,Diamond Valley College,8746,133.0,158.0,165.0,136.8,125.3,113.7,831.8,Diamond Valley College,25,0.7,56,76,18,100,DIAMOND CREEK
+Ararat,142.9219615,-37.28599961,Ararat,Ararat Secondary College,8753,72.0,75.0,48.0,62.0,44.2,47.8,349.0,Ararat Secondary College,26,1.2,30,98,< 4,89,ARARAT
+Moorabool,144.4330584,-37.68562875,Bacchus Marsh,Bacchus Marsh College,8777,181.0,185.0,194.2,171.0,118.4,128.8,978.4,Bacchus Marsh College,24,0.3,57,71,28,97,BACCHUS MARSH
+Wyndham,144.6749381,-37.8581346,Hoppers Crossing,The Grange P-12 College,8783,188.0,198.0,235.0,256.0,215.0,178.0,1270.0,The Grange P-12 College,25,3.2,55,84,38,95,HOPPERS CROSSING
+Brimbank,144.81382,-37.793158,Sunshine West,Sunshine College,8790,208.0,157.0,213.0,232.4,230.0,183.0,1223.4,Sunshine College,26,1.5,75,89,32,98,SUNSHINE WEST
+Mitchell,144.981473,-37.418393,Wallan,Wallan Secondary College,8791,189.0,178.0,179.0,165.0,147.5,98.7,957.2,Wallan Secondary College,22,0.0,34,66,14,93,WALLAN
+Darebin,145.0252135,-37.75649469,Thornbury,Thornbury High School,8797,218.7,203.0,165.1,194.4,151.6,148.1,1080.9,Thornbury High School,30,6.0,82,79,13,93,THORNBURY
+Glenelg,141.5948243,-38.3588185,Portland,Portland Secondary College,8798,94.0,78.0,94.0,104.0,83.3,83.6,536.9,Portland Secondary College,24,0.4,46,75,16,100,PORTLAND
+Brimbank,144.772426,-37.719463,Delahey,Copperfield College,8799,286.0,324.0,279.0,318.0,333.0,334.0,1874.0,Copperfield College,27,2.1,63,76,51,92,DELAHEY
+Swan Hill,143.5528519,-35.33522773,Swan Hill,Swan Hill College,8802,122.0,138.0,145.0,128.0,115.2,108.3,756.5,Swan Hill College,26,1.8,65,82,11,99,SWAN HILL
+Latrobe,146.5194895,-38.19142459,Traralgon,Traralgon College,8803,168.0,161.0,141.0,153.6,177.1,135.0,935.7,Traralgon College,25,0.9,35,81,21,98,TRARALGON
+Mornington Peninsula,145.057762,-38.216712,Mornington,Mornington Secondary College,8804,107.0,95.0,139.0,130.0,169.8,175.8,816.6,Mornington Secondary College,27,4.3,44,69,39,98,MORNINGTON
+Merri-bek,144.95501,-37.770899,Brunswick,Brunswick Secondary College,8807,173.0,195.0,180.0,174.0,184.6,164.9,1071.5,Brunswick Secondary College,30,8.8,77,82,14,97,BRUNSWICK
+Frankston,145.147724,-38.126124,Frankston North,Monterey Secondary College,8809,95.0,87.0,90.0,83.0,81.0,47.0,483.0,Monterey Secondary College,21,4.5,6,76,18,88,FRANKSTON NORTH
+Warrnambool,142.4996761,-38.37671595,Warrnambool,Warrnambool College,8811,143.4,172.0,188.0,211.9,197.2,163.7,1076.2,Warrnambool College,26,1.5,47,92,25,95,WARRNAMBOOL
+Banyule,145.08659,-37.741196,Viewbank,Viewbank College,8812,231.2,247.0,243.0,245.0,246.7,206.1,1419.0,Viewbank College,31,7.0,80,86,10,98,VIEWBANK
+Greater Dandenong,145.182369,-37.970209,Noble Park,Noble Park Secondary College,8813,52.0,67.0,106.0,119.0,121.0,91.6,556.6,Noble Park Secondary College,25,0.5,68,85,19,100,NOBLE PARK
+Southern Grampians,142.014634,-37.734187,Hamilton,Baimbridge College,8814,50.0,62.0,56.0,67.2,45.6,39.8,320.6,Baimbridge College,26,0.0,30,90,10,85,HAMILTON
+Maroondah,145.2321036,-37.83842619,Heathmont,Heathmont College,8816,129.0,130.0,108.0,95.0,115.8,94.5,672.3,Heathmont College,25,0.7,49,80,13,98,HEATHMONT
+Horsham,142.184101,-36.711661,Horsham,Horsham College,8818,148.0,159.0,167.0,159.0,250.0,156.8,1039.8,Horsham College,29,5.2,38,96,23,93,HORSHAM
+Yarra,145.014334,-37.822507,Richmond,Melbourne Girls College,8819,298.0,257.0,254.0,262.0,243.4,216.7,1531.1,Melbourne Girls' College,32,10.6,95,89,8,100,RICHMOND
+Latrobe,146.2859798,-38.17667934,Newborough,Lowanna College,8821,222.0,186.0,205.0,192.0,180.0,133.0,1118.0,Lowanna College,26,2.5,33,88,25,97,NEWBOROUGH
+Manningham,145.122306,-37.767428,Templestowe Lower,Templestowe College,8823,187.9,187.0,218.3,201.6,206.5,213.3,1214.6,Templestowe College,28,7.0,50,90,40,98,TEMPLESTOWE LOWER
+Mount Alexander,144.227547,-37.050436,Castlemaine,Castlemaine Secondary College,8824,110.0,103.0,151.0,124.0,130.4,83.0,701.4,Castlemaine Secondary College,26,2.1,46,59,4,93,CASTLEMAINE
+Baw Baw,145.9254852,-38.16519591,Warragul,Warragul Regional College,8827,89.0,130.0,119.0,120.4,124.8,101.0,684.2,Warragul Regional College,24,0.0,23,99,19,97,WARRAGUL
+Ballarat,143.834472,-37.51922,Wendouree,Mount Rowan Secondary College,8828,141.0,127.0,140.0,139.0,105.6,58.0,710.6,Mount Rowan Secondary College,28,1.4,48,80,7,88,WENDOUREE
+Buloke,143.359633,-36.270312,Charlton,Charlton College,8830,13.0,14.0,7.2,15.2,9.6,13.0,72.0,Charlton College,30,1.6,56,49,6,94,CHARLTON
+Buloke,143.229098,-36.075704,Wycheproof,Wycheproof P-12 College,8831,6.0,3.0,10.0,13.8,12.2,9.6,54.6,Wycheproof P-12 College,30,2.6,50,83,< 4,100,WYCHEPROOF
+Buloke,142.9099365,-35.98438249,Birchip,Birchip P-12 School,8832,16.4,8.0,16.0,14.0,10.0,17.0,81.4,Birchip P-12 School,31,10.4,53,100,5,100,BIRCHIP
+Hindmarsh,141.65886,-36.33260253,Nhill,Nhill College,8833,27.0,29.0,23.0,25.0,28.6,14.0,146.6,Nhill College,23,0.0,62,97,< 4,92,NHILL
+Wellington,147.068006,-38.108921,Sale,Sale College,8834,145.0,139.0,151.0,138.9,143.8,86.4,804.1,Sale College,24,0.7,58,97,10,98,SALE
+Frankston,145.158453,-38.14632,Frankston,McClelland Secondary College,8835,223.0,214.0,175.0,198.4,163.0,157.6,1131.0,McClelland Secondary College,30,3.6,41,85,37,96,FRANKSTON
+Casey,145.285075,-38.049734,Narre Warren South,Narre Warren South P-12 College,8839,233.0,266.0,271.0,271.0,324.0,331.0,1696.0,Narre Warren Sth P-12 College,27,2.3,59,91,89,92,NARRE WARREN SOUTH
+Greater Geelong,144.41157,-38.018176,Lara,Lara Secondary College,8841,88.0,90.0,112.0,145.0,113.8,114.0,662.8,Lara Secondary College,25,1.5,25,40,16,92,LARA
+Towong,147.910757,-36.192938,Corryong,Corryong College,8843,27.0,27.0,20.0,31.8,25.2,14.4,145.4,Corryong College,31,5.6,27,73,11,100,CORRYONG
+Central Goldfields,143.722865,-37.042159,Maryborough,Maryborough Education Centre,8845,121.0,99.0,107.0,121.8,107.4,51.2,648.4,Maryborough Education Centre,26,2.1,42,50,18,84,MARYBOROUGH
+Whittlesea,145.075679,-37.634935,South Morang,The Lakes South Morang College,8846,63.0,51.0,56.0,58.0,59.9,47.8,335.7,The Lakes South Morang College,30,2.7,38,70,< 4,100,SOUTH MORANG
+Wyndham,144.601853,-37.873507,Wyndham Vale,Manor Lakes P-12 College,8848,278.0,260.8,352.0,305.0,295.4,216.0,1707.2,Manor Lakes P-12 College,24,3.2,47,59,49,92,WYNDHAM VALE
+Merri-bek,144.9728,-37.7407,Coburg,Coburg High School,8849,236.0,227.0,204.0,218.9,212.0,180.6,1278.5,Coburg High School,30,8.0,83,78,13,99,COBURG
+Hume,144.921334,-37.578645,Craigieburn,Mount Ridley P-12 College,8853,363.4,368.0,338.0,435.0,398.4,265.8,2168.6,Mount Ridley P-12 College,24,1.3,71,86,26,99,CRAIGIEBURN
+Wyndham,144.6804061,-37.83335386,Tarneit,Tarneit Senior College,8854,0.0,0.0,0.0,263.0,265.0,413.0,941.0,Tarneit Senior College,23,0.7,67,44,53,98,TARNEIT
+Campaspe,144.732423,-36.132394,Echuca,Echuca College,8855,80.0,86.0,103.0,119.0,114.8,90.8,593.6,Echuca College,24,0.7,51,78,7,99,ECHUCA
+Monash,145.128686,-37.914221,Clayton,John Monash Science School,8856,0.0,0.0,0.0,197.0,231.0,231.5,659.5,John Monash Science School,36,22.5,99,100,-,100,CLAYTON
+Hobsons Bay,144.818639,-37.861911,Altona,Altona College,8857,140.0,97.0,86.0,83.0,73.4,51.5,530.9,Altona College,26,3.9,41,81,4,100,ALTONA
+Greater Dandenong,145.209011,-37.979418,Dandenong,Dandenong High School,8858,175.0,199.0,231.0,270.0,279.0,203.0,1357.0,Dandenong High School,25,1.7,73,77,27,95,DANDENONG
+Hobsons Bay,144.7726329,-37.85617409,Laverton,Laverton P-12 College,8861,70.0,54.0,70.0,71.0,76.0,64.0,405.0,Laverton P-12 College,24,3.7,84,84,12,100,LAVERTON
+Colac-Otway,143.5901021,-38.35149548,Colac,Colac Secondary College,8864,77.0,101.0,100.0,79.0,76.0,53.1,486.1,Colac Secondary College,23,0.0,33,79,9,93,COLAC
+Casey,145.336563,-38.038502,Berwick,Nossal High School,8865,0.0,0.0,208.0,207.9,206.8,203.7,826.4,Nossal High School,36,27.6,100,64,-,100,BERWICK
+Wyndham,144.700748,-37.893852,Werribee,Suzanne Cory High School,8866,0.0,0.0,208.0,233.0,242.9,242.3,926.2,Suzanne Cory High School,34,19.0,100,-,-,100,WERRIBEE
+Casey,145.276556,-37.974606,Endeavour Hills,Gleneagles Secondary College,8869,184.0,179.0,181.0,247.0,218.0,248.5,1257.5,Gleneagles Secondary College,29,3.2,68,97,40,99,ENDEAVOUR HILLS
+Alpine,146.7261447,-36.54888702,Myrtleford,Myrtleford P-12 College,8873,40.0,34.0,47.0,20.0,40.2,24.0,205.2,Myrtleford P-12 College,24,3.2,38,100,4,90,MYRTLEFORD
+Casey,145.308716,-38.073127,Cranbourne North,Alkira Secondary College,8874,346.0,357.0,329.0,369.0,333.4,271.4,2005.8,Alkira Secondary College,29,2.8,67,88,59,96,CRANBOURNE NORTH
+Mornington Peninsula,145.168595,-38.227257,Somerville,Somerville Secondary College,8875,120.0,135.0,142.0,110.0,61.5,38.3,606.8,Somerville Secondary College,28,0.0,63,64,7,100,SOMERVILLE
+Loddon,143.726948,-36.110217,Boort,Boort District P-12 School,8882,12.0,13.0,18.0,17.0,17.7,20.7,98.4,Boort District P-12 School,30,6.2,70,96,4,96,BOORT
+Moira,146.0066682,-36.02144074,Yarrawonga,Yarrawonga College P-12,8883,104.0,92.0,90.0,86.2,85.4,50.7,508.3,Yarrawonga College P-12,28,1.3,55,89,14,100,YARRAWONGA
+Mitchell,145.1411167,-37.02984234,Seymour,Seymour College,8884,71.0,85.0,61.0,86.0,80.8,39.6,454.4,Seymour College,25,1.7,38,100,23,92,SEYMOUR
+Mildura,142.0713085,-34.16936534,Merbein,Merbein P-10 College,8886,122.0,108.2,100.0,82.0,0.0,0.0,412.2,Merbein P-10 College,-,-,-,77,-,-,MERBEIN
+Port Phillip,144.947363,-37.844792,Albert Park,Albert Park College,8889,281.0,266.0,269.0,261.9,330.1,255.0,1663.0,Albert Park College,31,9.0,84,75,7,99,ALBERT PARK
+Darebin,145.05865,-37.728966,Macleod West,Charles La Trobe P-12 College,8890,43.0,53.0,85.0,93.0,91.7,137.5,503.2,Charles La Trobe P-12 College,-,-,18,47,15,68,PRESTON
+East Gippsland,147.7240342,-37.26684449,Swifts Creek,Swifts Creek P-12 School,8892,9.0,9.0,9.0,10.0,8.0,11.0,56.0,Swifts Creek P-12 School,29,7.1,33,88,< 4,100,SWIFTS CREEK
+Whittlesea,145.08833,-37.604853,Mernda,Mernda Central P-12 College,8897,258.0,195.0,205.0,173.0,157.0,133.0,1121.0,Mernda Central P-12 College,28,5.7,59,94,17,100,MERNDA
+Greater Geelong,144.355709,-38.078406,Corio,Northern Bay P-12 College,8901,117.0,117.0,122.0,126.0,124.0,81.0,687.0,Northern Bay P-12 College,24,2.2,41,64,18,89,CORIO
+Yarriambiack,142.3660296,-35.73486974,Hopetoun,Hopetoun P-12 College,8904,7.0,5.0,8.0,12.0,5.0,9.9,46.9,Hopetoun P-12 College,27,0.0,-,92,< 4,100,HOPETOUN
+Cardinia,145.410967,-38.072015,Officer,Officer Secondary College,8907,190.0,185.6,174.0,156.0,130.6,174.1,1010.3,Officer Secondary College,28,4.2,52,75,39,94,OFFICER
+Melton,144.740281,-37.731016,Caroline Springs,Lakeview Senior College,8910,0.0,0.0,0.0,381.0,344.0,323.8,1048.8,Lakeview Senior College,27,2.3,68,76,52,97,CAROLINE SPRINGS
+Knox,145.293268,-37.8583,Boronia,Boronia K-12 College,8913,40.0,55.2,59.0,52.0,58.6,55.7,320.5,Boronia K-12 College,27,0.8,66,73,7,92,BORONIA
+Benalla,145.963847,-36.553372,Benalla,Benalla P-12 College,8915,52.0,45.0,47.0,64.0,42.2,40.8,291.0,Benalla P-12 College,24,0.8,41,70,13,98,BENALLA
+Melbourne,144.982144,-37.84883,MELBOURNE,Wesley College,1,344.0,373.0,361.0,385.0,374.0,386.0,2223.0,Wesley College,32,8.9,99,95,-,100,MELBOURNE
+Stonnington,145.054637,-37.861454,GLEN IRIS,Korowa Anglican Girls' School,5,100.0,91.0,82.0,88.0,92.0,110.0,563.0,Korowa Anglican Girls' School,35,21.2,100,72,-,100,GLEN IRIS
+Boroondara,145.039181,-37.811111,KEW,Ruyton Girls' School,83,85.0,94.0,68.0,86.0,90.0,92.0,515.0,Ruyton Girls' School,37,30.2,100,100,-,100,KEW
+Glen Eira,145.004887,-37.877377,ST KILDA EAST,Caulfield Grammar School,96,454.0,454.0,428.0,478.0,492.0,497.0,2803.0,Caulfield Grammar School,33,17.2,96,92,-,100,WHEELERS HILL
+Boroondara,145.038491,-37.813951,KEW,Methodist Ladies' College,259,275.0,265.0,281.0,287.0,300.5,302.0,1710.5,Methodist Ladies College,34,22.5,99,78,< 4,100,KEW
+Ballarat,143.8336504,-37.55964761,BALLARAT,Ballarat Clarendon College,278,176.0,177.0,192.0,195.0,211.0,195.0,1146.0,Ballarat Clarendon College,37,34.7,93,100,-,100,BALLARAT
+Boroondara,145.080326,-37.815158,BALWYN,Fintona Girls' School,385,61.0,60.0,58.0,59.0,58.0,51.0,347.0,Fintona Girls School,36,26.4,96,68,-,100,BALWYN
+Stonnington,145.025089,-37.852317,ARMADALE,Lauriston Girls' School,391,115.0,113.0,100.0,94.0,93.0,109.0,624.0,Lauriston Girls School,35,20.3,100,74,-,100,ARMADALE
+Greater Geelong,144.399071,-38.068817,CORIO,Geelong Grammar School,450,87.0,135.0,243.0,214.0,191.0,211.0,1081.0,Geelong Grammar School,32,8.7,85,99,6,99,CORIO
+Melbourne,144.984803,-37.831692,SOUTH YARRA,Melbourne Girls Grammar,509,99.0,123.0,132.0,142.0,129.0,134.0,759.0,Melbourne Girls Grammar,36,28.7,96,100,-,100,SOUTH YARRA
+Greater Geelong,144.3400898,-38.15241839,NEWTOWN,The Geelong College,510,167.0,181.0,184.0,180.0,189.0,164.0,1065.0,The Geelong College,33,14.5,88,100,-,100,NEWTOWN
+Glenelg,141.605949,-38.345232,PORTLAND,Bayview College,545,57.0,58.0,65.5,43.0,34.0,40.2,297.7,Bayview College,27,1.4,74,88,< 4,100,PORTLAND
+Whitehorse,145.107002,-37.848559,BURWOOD,Presbyterian Ladies' College,554,149.0,142.0,163.0,169.0,191.0,202.0,1016.0,Presbyterian Ladies' College,36,25.9,99,I/D,-,100,BURWOOD
+Port Phillip,144.991548,-37.859549,ST KILDA,St Michael's Grammar School,818,134.0,126.0,148.0,148.0,144.0,145.0,845.0,St Michael's Grammar School,33,13.1,93,92,-,100,ST KILDA
+Bayside,144.996936,-37.906118,BRIGHTON,Firbank Grammar School,879,125.0,107.0,91.0,114.0,129.0,124.0,690.0,Firbank Grammar School,34,19.2,100,100,-,100,BRIGHTON
+Ballarat,143.83083,-37.539237,WENDOUREE,Ballarat Grammar,928,238.0,209.0,240.0,219.0,229.7,208.0,1343.7,Ballarat Grammar,32,11.7,81,100,13,100,WENDOUREE
+Banyule,145.044477,-37.772515,IVANHOE,Ivanhoe Grammar School,1004,338.0,346.0,327.0,335.0,329.0,320.0,1995.0,Ivanhoe Grammar School,34,17.8,95,I/D,-,100,IVANHOE
+Boroondara,145.032288,-37.833922,HAWTHORN,Scotch College,1021,258.0,232.0,254.0,272.0,262.0,257.0,1535.0,Scotch College,34,22.6,99,83,-,100,HAWTHORN
+Bayside,145.007554,-37.928631,BRIGHTON EAST,St Leonard's College,1025,192.0,192.0,205.0,198.0,200.0,186.0,1173.0,St Leonard's College,34,15.6,96,96,-,100,BRIGHTON EAST
+Maroondah,145.25669,-37.815515,RINGWOOD EAST,Tintern Grammar,1080,137.0,120.0,94.0,99.0,89.0,94.0,633.0,Tintern Grammar,34,17.3,92,93,-,99,RINGWOOD EAST
+Stonnington,145.021269,-37.838296,TOORAK,St Catherine's School,1116,67.0,72.0,78.0,85.0,91.0,86.0,479.0,St Catherine's School,36,30.8,97,70,-,100,TOORAK
+Moonee Valley,144.870337,-37.732154,KEILOR EAST,Penleigh & Essendon Grammar School,1144,334.0,306.0,304.0,307.0,304.0,303.0,1858.0,Penleigh & Essendon Grammar,34,16.3,96,I/D,-,100,KEILOR EAST
+Kingston,145.068124,-37.987688,MENTONE,Mentone Grammar School,1183,290.0,292.0,275.0,252.0,249.0,210.0,1568.0,Mentone Grammar School,35,21.5,95,100,16,99,MENTONE
+Banyule,145.046721,-37.765273,IVANHOE,Ivanhoe Girls' Grammar School,1187,112.0,124.0,98.0,111.0,77.0,108.2,630.2,Ivanhoe Girls' Grammar School,35,21.2,99,86,-,100,IVANHOE
+Boroondara,145.047817,-37.814784,KEW,Carey Baptist Grammar School,1189,270.0,270.0,259.0,315.0,318.0,332.9,1764.9,Carey Baptist Grammar School,33,11.8,92,96,-,100,KEW
+Glen Eira,145.04122,-37.89952,ORMOND,Kilvington Grammar School,1190,84.0,85.0,95.0,94.0,88.0,90.0,536.0,Kilvington Grammar School,33,18.3,99,100,-,100,ORMOND
+Greater Dandenong,145.14643,-37.995979,KEYSBOROUGH,Haileybury College,1191,526.0,537.0,524.2,537.8,513.0,554.0,3192.0,Haileybury College,36,26.3,94,93,-,100,KEYSBOROUGH
+Kingston,145.063465,-37.989375,MENTONE,Mentone Girls' Grammar School,1213,65.0,56.0,81.0,59.0,66.0,73.0,400.0,Mentone Girls' Grammar School,36,22.2,99,96,-,100,MENTONE
+Wellington,147.064627,-38.093651,SALE,Gippsland Grammar,1218,105.0,102.0,97.0,106.0,92.0,73.0,575.0,Gippsland Grammar,31,9.8,78,95,-,99,SALE
+Boroondara,145.066407,-37.816093,CANTERBURY,Camberwell Grammar School,1258,175.0,200.0,182.0,173.0,181.0,188.0,1099.0,Camberwell Grammar School,34,21.3,99,100,-,100,CANTERBURY
+Bayside,144.993524,-37.911108,BRIGHTON,Brighton Grammar School,1262,170.0,172.0,177.0,179.0,175.0,174.0,1047.0,Brighton Grammar School,35,24.3,93,82,-,100,BRIGHTON
+Whitehorse,145.118628,-37.832777,BOX HILL,Kingswood College,1304,81.0,72.0,65.0,68.0,64.0,57.0,407.0,Kingswood College,32,11.8,92,88,-,100,BOX HILL
+Whitehorse,145.117774,-37.847216,BURWOOD,Mount Scopus Memorial College,1490,94.0,104.0,90.0,120.0,111.0,124.0,643.0,Mount Scopus Memorial College,37,30.8,98,96,-,100,BURWOOD
+Glen Eira,145.008205,-37.883899,ELSTERNWICK,Adass Israel School,1515,31.0,30.0,37.0,34.0,31.0,18.0,181.0,Adass Israel School,-,-,-,73,12,80,ELSTERNWICK
+Glen Eira,145.000341,-37.868122,ST KILDA EAST,Yeshivah College,1533,23.0,26.0,39.0,28.0,31.0,18.0,165.0,Yeshivah College,37,25.3,95,70,-,100,ST KILDA EAST
+Glen Eira,145.000835,-37.869281,ST KILDA EAST,Beth Rivkah Ladies College,1561,54.0,39.4,43.0,41.2,34.0,35.0,246.6,Beth Rivkah Ladies College,35,23.5,61,100,7,100,ST KILDA EAST
+Glen Eira,145.006626,-37.892871,ELSTERNWICK,Leibler Yavneh College,1609,36.0,44.0,50.0,48.0,54.0,51.0,283.0,Leibler Yavneh College,35,23.6,96,100,-,100,ELSTERNWICK
+Boroondara,145.043371,-37.842269,HAWTHORN,Bialik College,1626,100.0,91.0,93.0,73.0,83.0,87.0,527.0,Bialik College,36,29.7,99,96,-,100,HAWTHORN
+Maroondah,145.272909,-37.782963,CROYDON HILLS,Luther College,1633,227.0,215.0,212.0,211.0,192.0,173.7,1230.7,Luther College,32,10.8,87,99,-,100,CROYDON HILLS
+Maroondah,145.258164,-37.783701,RINGWOOD,Yarra Valley Grammar,1658,261.0,257.0,252.0,237.0,199.0,204.0,1410.0,Yarra Valley Grammar School,35,21.0,93,100,-,100,RINGWOOD
+Casey,145.278034,-37.970919,ENDEAVOUR HILLS,Maranatha Christian School,1679,101.0,102.0,83.0,92.0,72.0,67.7,517.7,Maranatha Christian School,31,7.7,70,94,11,100,ENDEAVOUR HILLS
+Maroondah,145.248811,-37.777221,WARRANWOOD,Melbourne Rudolf Steiner School,1706,54.0,51.0,52.0,47.0,34.0,41.0,279.0,Melbourne Rudolf Steiner Schl,29,5.9,95,-,-,100,WARRANWOOD
+Nillumbik,145.192232,-37.70044311,RESEARCH,Eltham College,1714,78.0,74.0,91.0,65.0,93.0,79.0,480.0,Eltham College,31,9.0,92,99,-,100,RESEARCH
+Manningham,145.193451,-37.774028,DONVALE,Donvale Christian College,1724,155.0,155.0,157.0,159.0,144.0,148.5,918.5,Donvale Christian College,33,10.7,86,98,-,99,DONVALE
+Macedon Ranges,144.5759811,-37.36382882,WOODEND,Braemar College,1734,171.0,150.0,156.0,155.0,132.0,143.0,907.0,Braemar College,32,7.2,83,90,-,99,WOODEND
+Melton,144.763149,-37.724602,TAYLORS HILL,Gilson College,1742,105.0,99.0,94.0,96.0,100.0,86.0,580.0,Gilson College,27,2.9,79,96,7,100,TAYLORS HILL
+Horsham,142.217749,-36.708181,HORSHAM,Holy Trinity Lutheran College,1767,52.0,37.0,49.0,27.0,23.0,44.0,232.0,Holy Trinity Lutheran College,30,8.8,64,98,4,100,HORSHAM
+Knox,145.215299,-37.880135,WANTIRNA SOUTH,Waverley Christian College,1771,225.0,224.0,192.0,198.0,196.0,189.7,1224.7,Waverley Christian College,34,18.5,93,97,4,100,WANTIRNA SOUTH
+Stonnington,145.010495,-37.858226,ARMADALE,The King David School,1773,57.0,60.0,59.0,49.0,72.0,47.0,344.0,The King David School,34,18.3,95,90,-,100,ARMADALE
+Wyndham,144.724898,-37.850843,TRUGANINA,Westbourne Grammar School,1775,250.0,248.0,238.0,212.0,173.0,171.0,1292.0,Westbourne Grammar School,33,15.0,93,I/D,-,100,TRUGANINA
+Whittlesea,145.0546707,-37.69501422,BUNDOORA,Northside Christian College,1787,51.0,52.0,48.0,44.0,46.0,38.0,279.0,Northside Christian College,30,13.1,87,86,4,100,BUNDOORA
+Yarra Ranges,145.30513,-37.763573,CHIRNSIDE PARK,Oxley Christian College,1792,91.0,99.0,87.0,66.0,70.0,65.0,478.0,Oxley Christian College,34,21.9,89,100,-,100,CHIRNSIDE PARK
+Greater Geelong,144.317997,-38.09719,BELL POST HILL,Covenant College,1794,71.0,65.0,71.0,64.0,59.0,52.0,382.0,Covenant College,29,3.0,70,92,9,100,BELL POST HILL
+Bass Coast,145.272323,-38.488343,RHYLL,Newhaven College,1812,110.0,72.0,92.0,107.0,91.0,90.0,562.0,Newhaven College,30,5.1,75,95,-,99,RHYLL
+Yarra Ranges,145.3388701,-37.78785168,MOOROOLBARK,Billanook College,1816,127.0,93.0,116.0,105.0,102.0,94.8,637.8,Billanook College,31,7.0,93,99,-,100,MOOROOLBARK
+Southern Grampians,142.041488,-37.770832,HAMILTON,Good Shepherd College,1825,24.0,27.0,25.0,23.0,13.0,14.0,126.0,Good Shepherd College,24,0.0,47,87,4,88,HAMILTON
+Nillumbik,145.138791,-37.613463,DOREEN,Plenty Valley Christian College,1826,81.0,80.0,81.0,79.0,76.0,65.0,462.0,Plenty Valley Christian College,29,5.1,71,92,-,97,DOREEN
+Frankston,145.16302,-38.178632,LANGWARRIN SOUTH,Bayside Christian College,1837,59.0,67.0,49.0,59.0,51.0,39.0,324.0,Bayside Christian College,30,3.6,53,98,12,98,LANGWARRIN SOUTH
+Greater Shepparton,145.415577,-36.327476,SHEPPARTON,Goulburn Valley Grammar School,1840,101.0,102.0,100.0,101.0,98.0,95.0,597.0,Goulburn Valley Grammar Schl,34,17.9,96,47,-,100,SHEPPARTON
+Knox,145.219198,-37.865467,WANTIRNA SOUTH,The Knox School,1841,89.0,81.0,77.0,74.0,78.0,74.0,473.0,The Knox School,33,7.4,92,100,-,100,WANTIRNA SOUTH
+Wyndham,144.681332,-37.881318,WERRIBEE,Heathdale Christian College,1846,219.0,171.0,161.0,158.0,142.0,118.0,969.0,Heathdale Christian College,30,5.6,96,92,8,100,WERRIBEE
+Casey,145.363801,-38.084681,CLYDE NORTH,Hillcrest Christian College,1848,219.0,215.0,201.0,176.0,165.0,142.0,1118.0,Hillcrest Christian College,29,3.4,86,79,5,100,CLYDE NORTH
+Baw Baw,145.930417,-38.147811,WARRAGUL,St Paul's Anglican Grammar School,1849,207.0,210.0,178.0,167.0,116.0,135.0,1013.0,St Paul's Anglican Grammar Schl,30,6.7,80,96,-,100,WARRAGUL
+Cardinia,145.467319,-38.061898,PAKENHAM,Beaconhills College,1855,311.0,312.0,305.0,315.0,272.0,277.0,1792.0,Beaconhills College,31,7.9,83,99,-,100,BERWICK
+Yarra Ranges,145.3462292,-37.91890282,BELGRAVE HEIGHTS,Belgrave Heights Christian School,1864,82.0,70.0,83.0,81.0,69.0,70.0,455.0,Belgrave Heights Christian Schl,29,2.4,78,80,9,100,BELGRAVE HEIGHTS
+Monash,145.082819,-37.895907,OAKLEIGH,Oakleigh Grammar,1866,52.0,65.0,69.0,65.0,74.0,70.0,395.0,Oakleigh Grammar,31,4.7,82,I/D,-,97,OAKLEIGH
+Gannawarra,143.913416,-35.730422,KERANG,Kerang Christian College,1869,16.0,17.0,7.0,12.0,10.0,10.0,72.0,Kerang Christian College,29,15.9,60,-,-,100,KERANG
+Knox,145.244636,-37.873866,WANTIRNA SOUTH,St Andrews Christian College,1871,75.0,55.0,55.0,57.0,48.0,55.0,345.0,St Andrews Christian College,34,20.1,96,96,-,100,WANTIRNA SOUTH
+Baw Baw,145.877116,-38.142837,DROUIN,Chairo Christian School,1872,171.0,138.0,160.0,128.0,119.0,124.0,840.0,Chairo Christian School,31,4.8,65,99,5,98,DROUIN
+Mornington Peninsula,145.167984,-38.262117,TYABB,Flinders Christian Community College,1876,228.0,197.0,166.0,165.0,162.0,132.0,1050.0,Flinders Christian Comm College,29,2.3,76,92,5,100,TYABB
+Wodonga,146.887345,-36.157173,LENEVA,Grace Christian College Wodonga,1886,23.0,11.0,11.0,15.0,13.0,18.0,91.0,Grace Christian College Wodonga,-,-,27,91,5,100,LENEVA
+Melton,144.560281,-37.700276,BROOKFIELD,Melton Christian College,1894,106.0,119.0,98.0,102.0,73.0,59.0,557.0,Melton Christian College,26,0.8,79,70,11,100,BROOKFIELD
+Warrnambool,142.506174,-38.362113,WARRNAMBOOL,King's College,1904,21.0,27.0,18.0,27.0,15.0,19.0,127.0,Kings College,29,6.1,44,88,-,100,WARRNAMBOOL
+Wyndham,144.722023,-37.85265,TRUGANINA,Al-Taqwa College,1906,236.0,179.0,170.0,170.0,113.0,97.0,965.0,Al-Taqwa College,34,9.7,95,76,10,100,TRUGANINA
+Yarra Ranges,145.631163,-37.79444291,YARRA JUNCTION,Little Yarra Steiner School,1914,29.0,29.0,26.0,20.0,20.0,21.7,145.7,Little Yarra Steiner School,29,0.0,23,-,-,100,YARRA JUNCTION
+Moorabool,144.4315941,-37.69026649,BACCHUS MARSH,Bacchus Marsh Grammar,1919,421.0,386.0,402.0,377.0,307.0,245.0,2138.0,Bacchus Marsh Grammar,32,13.9,88,100,15,100,BACCHUS MARSH
+Greater Dandenong,145.143501,-38.001204,KEYSBOROUGH,Lighthouse Christian College,1923,75.0,74.0,44.0,56.0,49.0,55.0,353.0,Lighthouse Christian College,30,3.2,88,95,5,100,KEYSBOROUGH
+Yarra,145.036174,-37.780429,ALPHINGTON,Alphington Grammar School,1924,112.0,106.0,84.0,75.0,63.0,50.0,490.0,Alphington Grammar School,30,12.4,100,-,-,100,ALPHINGTON
+Hume,144.931212,-37.65583,COOLAROO,St Mary's Coptic Orthodox College,1934,118.0,89.0,84.0,86.0,73.0,70.0,520.0,St Mary's Coptic Orth College,29,12.8,93,91,-,100,COOLAROO
+Greater Dandenong,145.148625,-37.93904,SPRINGVALE,Minaret College,1936,225.0,236.0,186.0,193.0,183.0,177.0,1200.0,Minaret College,28,3.7,95,-,-,100,OFFICER
+Greater Bendigo,144.2727264,-36.762612,BENDIGO,Girton Grammar School,1939,150.0,146.0,113.0,137.0,122.0,89.4,757.4,Girton Grammar School,31,9.4,80,80,4,100,BENDIGO
+Greater Bendigo,144.313456,-36.782625,STRATHDALE,Victory Christian College,1946,108.2,109.0,81.0,77.0,56.0,53.7,484.9,Victory Christian College,29,7.3,63,59,-,100,STRATHDALE
+Hume,144.930072,-37.668621,BROADMEADOWS,Ilim College,1947,231.0,226.0,207.0,196.0,164.0,162.0,1186.0,Ilim College,27,5.2,94,-,-,100,BROADMEADOWS
+Greater Geelong,144.327997,-38.109881,BELL POST HILL,Kardinia International College,1953,251.0,247.0,228.0,228.0,241.0,238.0,1433.0,Kardinia Internatl College,32,12.6,89,100,-,100,BELL POST HILL
+Wyndham,144.666605,-37.855248,TARNEIT,Good News Lutheran College,1957,131.0,131.0,133.0,133.0,135.0,109.0,772.0,Good News Lutheran College,31,7.4,99,97,-,99,TARNEIT
+Hume,144.706022,-37.519099,SUNBURY,Red Rock Christian College,1960,22.0,21.0,21.0,18.0,13.0,18.0,113.0,Red Rock Christian College,27,0.0,27,-,-,100,SUNBURY
+Cardinia,145.6236872,-38.08322193,TYNONG,St Thomas Aquinas College,1966,17.0,24.0,14.0,16.0,14.0,16.0,101.0,St Thomas Aquinas College,26,0.0,55,88,-,100,TYNONG
+Hume,144.890698,-37.627709,GREENVALE,Aitken College,1978,156.0,156.0,154.0,155.0,150.0,141.0,912.0,Aitken College,28,4.6,91,99,8,99,GREENVALE
+Boroondara,145.045173,-37.843225,HAWTHORN EAST,Alia College,1981,4.0,13.0,10.0,23.0,27.0,14.0,91.0,Alia College,24,2.1,38,I/D,-,81,HAWTHORN EAST
+Greater Dandenong,145.175471,-38.013991,KEYSBOROUGH,Mt Hira College,1990,69.0,77.0,73.0,73.0,59.0,57.0,408.0,Mt Hira College,29,0.0,69,94,-,100,KEYSBOROUGH
+Melton,144.228738,-36.781544,MELTON WEST,OneSchool Global Vic,1998,52.0,58.0,49.0,46.0,53.0,64.0,322.0,OneSchool Global Vic,31,7.6,2,98,-,100,MELTON WEST
+Greater Geelong,144.330286,-38.067137,LOVELY BANKS,Geelong Baptist College,2000,16.0,32.0,24.0,29.0,12.0,33.2,146.2,Geelong Baptist College,24,2.5,44,98,< 4,87,LOVELY BANKS
+Melbourne,144.954425,-37.812887,MELBOURNE,Ozford College,2016,0.0,0.0,0.0,5.0,41.0,53.0,99.0,Ozford College,20,0.0,38,-,-,83,MELBOURNE
+Melbourne,144.972271,-37.810302,MELBOURNE,Holmes Grammar School,2024,0.0,0.0,0.0,0.0,18.0,41.0,59.0,Holmes Grammar School,28,0.0,39,90,9,96,MELBOURNE
+Ballarat,143.8438075,-37.59292494,SEBASTOPOL,Ballarat Christian College,2045,56.0,37.0,46.0,42.0,25.0,22.2,228.2,Ballarat Christian College,25,0.0,63,83,6,100,SEBASTOPOL
+Hume,144.931253,-37.56798,MICKLEHAM,Hume Anglican Grammar,2052,308.0,279.0,278.0,157.0,138.0,138.0,1298.0,Hume Anglican Grammar,30,9.4,92,95,-,100,MICKLEHAM
+Greater Geelong,144.337067,-38.230458,ARMSTRONG CREEK,Geelong Lutheran College,2056,126.0,118.0,118.0,103.0,84.0,85.0,634.0,Geelong Lutheran College,30,6.2,61,75,10,100,ARMSTRONG CREEK
+Whittlesea,145.0375337,-37.62426056,EPPING,Al Siraat College,2061,159.0,140.0,129.0,107.0,76.0,62.0,673.0,Al Siraat College,31,6.8,98,99,-,98,EPPING
+Frankston,145.174648,-38.1926,LANGWARRIN SOUTH,Woodleigh School,2064,102.0,115.0,110.0,102.0,85.0,97.0,611.0,Woodleigh School,31,6.5,84,95,-,98,LANGWARRIN SOUTH
+Melbourne,144.9770931,-37.83359283,MELBOURNE,Melbourne Grammar School,2072,203.0,200.0,207.0,218.0,214.0,208.0,1250.0,Melbourne Grammar School,36,28.0,98,I/D,-,100,MELBOURNE
+Wyndham,144.660376,-37.854236,TARNEIT,Islamic College of Melbourne,2073,177.0,158.0,153.0,155.0,107.0,86.0,836.0,Islamic College of Melbourne,31,12.7,100,99,-,100,TARNEIT
+Melton,144.7396024,-37.71396413,CAROLINE SPRINGS,Southern Cross Grammar,2074,100.0,100.0,99.0,95.0,80.0,75.0,549.0,Southern Cross Grammar,29,4.6,86,99,< 4,100,CAROLINE SPRINGS
+Greater Dandenong,145.148761,-38.049197,BANGHOLME,Cornish College,2076,79.0,67.0,60.0,80.0,70.0,79.0,435.0,Cornish College,30,6.8,92,96,-,100,BANGHOLME
+Merri-bek,144.9292633,-37.69777468,GLENROY,Glenroy Private,2080,57.0,61.0,47.0,27.0,18.0,14.0,224.0,Glenroy Private,23,0.0,100,-,-,100,GLENROY
+Bayside,145.0350807,-37.90360104,ORMOND,Divrei Emineh,2083,2.0,8.0,17.0,8.0,6.0,4.0,45.0,Divrei Emineh,-,-,-,60,9,100,ORMOND
+Moira,145.660055,-35.924283,COBRAM,Cobram Anglican Grammar School,2097,32.0,28.0,32.0,25.0,43.0,15.2,175.2,Cobram Anglican Grammar School,26,1.1,63,83,-,100,COBRAM
+Macedon Ranges,144.5331946,-37.44570261,MACEDON,Alice Miller School,2101,51.0,43.0,43.0,41.0,45.0,37.0,260.0,Alice Miller School,32,12.2,77,84,-,100,MACEDON
+Melton,144.5654845,-37.7071174,MELTON SOUTH,Al Iman College,2103,105.0,107.0,70.0,50.0,42.0,28.0,402.0,Al Iman College,26,0.8,71,-,-,100,MELTON SOUTH
+Yarra Ranges,145.351985,-37.78489,LILYDALE,Edinburgh College,2104,74.0,66.0,64.0,53.0,35.0,40.0,332.0,Edinburgh College,28,1.0,68,87,-,100,LILYDALE
+Melbourne,144.966653,-37.837307,SOUTH MELBOURNE,Youth2Industry College,2236,0.0,0.0,0.0,0.0,46.0,17.0,63.0,Youth2Industry College,-,-,26,65,17,89,SOUTH MELBOURNE
+Whittlesea,145.08148,-37.64875,SOUTH MORANG,Plenty River College,2244,0.0,0.0,0.0,20.0,13.0,18.0,51.0,Plenty River College,-,-,-,28,6,100,SOUTH MORANG
