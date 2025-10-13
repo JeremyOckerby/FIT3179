@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 600,
+  "title": "Median VCE Study Score vs Enrolments by School",
+  "data": {
+    "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/refs/heads/main/Secondary_Schools_Combined_With_VCE.csv"
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(datum['Secondary Total'])",
+      "as": "Total_Enrolments"
+    },
+    {
+      "calculate": "datum['Median_VCE_study_score']",
+      "as": "Median_VCE_Study_Score"
+    },
+    {
+      "calculate": "indexof(lower(datum.School), 'catholic') >= 0 ? 'Catholic' : (indexof(lower(datum.School), 'grammar') >= 0 || indexof(lower(datum.School), 'college') >= 0 ? 'Independent' : 'Government')",
+      "as": "Education_Sector"
+    }
+  ],
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "size": 100
+  },
+  "encoding": {
+    "x": {
+      "field": "Total_Enrolments",
+      "type": "quantitative",
+      "title": "Total Enrolments",
+      "scale": {"domain": [0, 3200]}
+    },
+    "y": {
+      "field": "Median_VCE_Study_Score",
+      "type": "quantitative",
+      "title": "Median VCE Study Score",
+      "scale": {"domain": [19, 38]}
+    },
+    "color": {
+      "field": "Education_Sector",
+      "type": "nominal",
+      "title": "Sector",
+      "scale": {
+        "domain": ["Catholic", "Government", "Independent"],
+        "range": ["#f54242", "#42f548", "#aa42f5"]
+      }
+    },
+    "tooltip": [
+      {"field": "School_Name", "type": "nominal", "title": "School Name"},
+      {"field": "LGA_Name", "type": "nominal", "title": "LGA"},
+      {"field": "Total_Enrolments", "type": "quantitative", "title": "Enrolments"},
+      {"field": "Median_VCE_Study_Score", "type": "quantitative", "title": "Median VCE Score"},
+      {"field": "Education_Sector", "type": "nominal", "title": "Sector"}
+    ]
+  }
+}
