@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "% of Students Applying for Tertiary Places (VTAC) by Sector",
+  "width": 700,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/refs/heads/main/Secondary_Schools_Combined_With_VCE.csv"
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(datum['Percentage_of_VCE_students_applying_for_tertiary_places_through_the_Victorian_Tertiary_Admissions_Centre_(VTAC)'])",
+      "as": "Pct_VTAC_Applications"
+    },
+    {
+      "calculate": "indexof(lower(datum.School), 'catholic') >= 0 ? 'Catholic' : (indexof(lower(datum.School), 'grammar') >= 0 || indexof(lower(datum.School), 'college') >= 0 ? 'Independent' : 'Government')",
+      "as": "Education_Sector"
+    }
+  ],
+  "mark": {
+    "type": "boxplot",
+    "extent": 1.5,
+    "median": {"color": "black"}
+  },
+  "encoding": {
+    "x": {
+      "field": "Education_Sector",
+      "type": "nominal",
+      "title": "Sector",
+      "axis": {"labelAngle": 0}
+    },
+    "y": {
+      "field": "Pct_VTAC_Applications",
+      "type": "quantitative",
+      "title": "Percentage of Students Applying for tertiery places through VTAC"
+    },
+    "color": {
+      "field": "Education_Sector",
+      "type": "nominal",
+      "title": "Sector",
+      "scale": {
+        "domain": ["Catholic", "Government", "Independent"],
+        "range": ["#f54242", "#42f548", "#aa42f5"]
+      }
+    },
+    "tooltip": [
+      {"field": "School_Name", "type": "nominal", "title": "School"},
+      {"field": "Education_Sector", "type": "nominal", "title": "Sector"},
+      {"field": "Pct_VTAC_Applications", "type": "quantitative", "title": "% VTAC Applications"}
+    ]
+  },
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"labelFontSize": 12, "titleFontSize": 14}
+  }
+}

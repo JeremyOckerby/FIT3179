@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Average Enrolments by Year Level and Sector",
+  "width": 900,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/refs/heads/main/Secondary_Schools_Combined_With_VCE.csv"
+  },
+  "transform": [
+    {
+      "calculate": "indexof(lower(datum.School), 'catholic') >= 0 ? 'Catholic' : (indexof(lower(datum.School), 'grammar') >= 0 || indexof(lower(datum.School), 'college') >= 0 ? 'Independent' : 'Government')",
+      "as": "Education_Sector"
+    },
+    {
+      "fold": ["Year 7 Total", "Year 8 Total", "Year 9 Total", "Year 10 Total", "Year 11 Total", "Year 12 Total"],
+      "as": ["Year_Level", "Enrolments"]
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Year_Level",
+      "type": "ordinal",
+      "title": "Year Level",
+      "sort": ["Year 7 Total","Year 8 Total","Year 9 Total","Year 10 Total","Year 11 Total","Year 12 Total"]
+    },
+    "y": {
+      "aggregate": "mean",
+      "field": "Enrolments",
+      "type": "quantitative",
+      "title": "Average Enrolments"
+    },
+    "color": {
+      "field": "Education_Sector",
+      "type": "nominal",
+      "title": "Sector",
+      "scale": {
+        "domain": ["Catholic", "Government", "Independent"],
+        "range": ["#f54242", "#42f548", "#aa42f5"]
+      }
+    },
+    "tooltip": [
+      {"field": "Year_Level", "type": "ordinal", "title": "Year Level"},
+      {"field": "Enrolments", "type": "quantitative", "title": "Average Enrolments", "aggregate": "mean"},
+      {"field": "Education_Sector", "type": "nominal", "title": "Sector"}
+    ]
+  }
+}
