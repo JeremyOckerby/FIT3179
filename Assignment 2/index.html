@@ -19,7 +19,7 @@ body { font-family: 'Poppins', sans-serif; background:#f7f7f7; margin:0; text-al
 h1 { margin-top:40px; font-size:2.8em; color:#2c3e50; text-transform:uppercase; letter-spacing:1px; }
 .intro-text { max-width:850px; margin:20px auto 40px; padding:25px; font-size:1.1em; line-height:1.7em; color:#555; text-align:justify; background:#fff; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1);}
 .vis-container { width:100%; height:100%; display:inline-block; margin:0; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,0.1); border-radius:12px; padding:0; }
-.map-wrapper { position: relative; display: inline-block; width: 800px; height: 600px; }
+.map-wrapper { position: relative; display: inline-block; width: 800px; height: 600px; margin:0 auto; }
 
 .map-controls {
   position: absolute;
@@ -33,16 +33,19 @@ h1 { margin-top:40px; font-size:2.8em; color:#2c3e50; text-transform:uppercase; 
 
 .map-controls button { width: 50px; height: 50px; }
 
-.charts-wrapper {
+.charts-row {
   display: flex;
   justify-content: space-between;
-  margin: 40px auto;
-  width: 90%;
-  gap: 20px;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: 20px auto;
+  gap: 40px;
+  margin-top: 100px;
 }
 
 .chart-box {
-  flex: 1;
+  flex: 1 1 48%; /* two charts per row */
+  min-width: 300px;
   height: 400px;
   background:#fff;
   border-radius:12px;
@@ -73,9 +76,16 @@ h1 { margin-top:40px; font-size:2.8em; color:#2c3e50; text-transform:uppercase; 
   </div>
 </div>
 
-<div class="charts-wrapper">
+<!-- Row 1: Scatterplot + Line Chart -->
+<div class="charts-row">
   <div class="chart-box" id="scatterplot"></div>
   <div class="chart-box" id="linechart"></div>
+</div>
+
+<!-- Row 2: Bar Chart + Boxplot -->
+<div class="charts-row">
+  <div class="chart-box" id="barchart"></div>
+  <div class="chart-box" id="boxplot"></div>
 </div>
 
 <script>
@@ -114,11 +124,19 @@ function setupMapControls() {
 }
 
 /* --- Scatterplot --- */
-vegaEmbed('#scatterplot', "school_scatterplot.json", {actions:false, renderer:"canvas"})
+vegaEmbed('#scatterplot', "school_scatterplot.json", { actions:false, renderer:"canvas" })
   .catch(console.error);
 
 /* --- Line chart --- */
-vegaEmbed('#linechart', "school_linechart.json", {actions:false, renderer:"canvas"})
+vegaEmbed('#linechart', "school_linechart.json", { actions:false, renderer:"canvas" })
+  .catch(console.error);
+
+/* --- Bar chart --- */
+vegaEmbed('#barchart', "school_barchart.json", { actions:false, renderer:"canvas" })
+  .catch(console.error);
+
+/* --- Boxplot --- */
+vegaEmbed('#boxplot', "school_boxplot.json", { actions:false, renderer:"canvas" })
   .catch(console.error);
 </script>
 

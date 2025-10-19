@@ -1,8 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Top 10 Victorian Schools by Percentage of Study Scores 40 and Over",
-  "width": 750,
-  "height": 500,
+  "title": "Top 10 by Percentage of 40+ Study Scores",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "width": "container",
+  "height": "container",
   "data": {
     "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/refs/heads/main/Secondary_Schools_Combined_With_VCE.csv"
   },
@@ -34,7 +38,7 @@
     "x": {
       "field": "Pct_40plus",
       "type": "quantitative",
-      "title": "% of Study Scores 40+"
+      "title": "40+ Study Score Percentage"
     },
     "color": {
       "field": "Education_Sector",
@@ -43,7 +47,8 @@
       "scale": {
         "domain": ["Catholic", "Government", "Independent"],
         "range": ["#f54242", "#42f548", "#aa42f5"]
-      }
+      },
+      "legend": null
     },
     "tooltip": [
       {"field": "School_Name", "title": "School"},
