@@ -3,6 +3,14 @@
   "width": 800,
   "height": 600,
   "title": "Average Median VCE Study Score by Local Government Area (LGA)",
+  "config": {
+    "title": {
+      "font": "Fira Sans",
+      "fontSize": 18,
+      "fontWeight": "bold",
+      "color": "#333"
+    }
+  },
   "params": [
     {"name": "zoom_level", "value": 20000},
     {"name": "lon_offset", "value": 0},

@@ -1,6 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Percentage of Students Applying for Tertiary Places (VTAC)",
+    "title": {
+    "text": "Percentage of Students Applying for Tertiary Places (VTAC)",
+    "font": "Fira Sans",
+    "fontSize": 18,
+    "fontWeight": "bold",
+    "color": "#333"
+  },
   "autosize": {
     "type": "fit",
     "contains": "padding"

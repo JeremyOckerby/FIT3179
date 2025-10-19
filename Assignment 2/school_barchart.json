@@ -1,6 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Top 10 by Percentage of 40+ Study Scores",
+  "title": {
+    "text": "Top 10 by Percentage of 40+ Study Scores",
+    "font": "Fira Sans",
+    "fontSize": 18,
+    "fontWeight": "bold",
+    "color": "#333"
+  },
   "autosize": {
     "type": "fit",
     "contains": "padding"
@@ -23,9 +29,7 @@
       "window": [{"op": "rank", "as": "rank"}],
       "sort": [{"field": "Pct_40plus", "order": "descending"}]
     },
-    {
-      "filter": "datum.rank <= 10"
-    }
+    {"filter": "datum.rank <= 10"}
   ],
   "mark": {"type": "bar", "orient": "horizontal", "cornerRadiusEnd": 4, "opacity": 0.9},
   "encoding": {
@@ -58,7 +62,7 @@
     ]
   },
   "config": {
-    "axis": {"labelFontSize": 12, "titleFontSize": 13},
+    "axis": {"labelFontSize": 12, "titleFontSize": 13, "labelFont": "Fira Sans", "titleFont": "Fira Sans"},
     "view": {"stroke": null}
   }
 }
