@@ -4,193 +4,35 @@
   "height": 600,
   "title": "Average Median VCE Study Score by Local Government Area (LGA)",
   "params": [
-    {
-      "name": "selectedLGA",
-      "value": null,
-      "bind": {
-        "input": "select",
-        "name": "Select an LGA: ",
-        "options": [
-            null,
-            "Alpine",
-            "Ararat",
-            "Ballarat",
-            "Banyule",
-            "Bass Coast",
-            "Baw Baw",
-            "Bayside",
-            "Benalla",
-            "Boroondara",
-            "Brimbank",
-            "Buloke",
-            "Campaspe",
-            "Cardinia",
-            "Casey",
-            "Central Goldfields",
-            "Colac Otway",
-            "Corangamite",
-            "Darebin",
-            "East Gippsland",
-            "Frankston",
-            "Gannawarra",
-            "Glen Eira",
-            "Glenelg",
-            "Golden Plains",
-            "Greater Bendigo",
-            "Greater Dandenong",
-            "Greater Geelong",
-            "Greater Shepparton",
-            "Hepburn",
-            "Hindmarsh",
-            "Hobsons Bay",
-            "Horsham",
-            "Hume",
-            "Indigo",
-            "Kingston",
-            "Knox",
-            "Latrobe",
-            "Loddon",
-            "Macedon Ranges",
-            "Manningham",
-            "Mansfield",
-            "Maribyrnong",
-            "Maroondah",
-            "Melbourne",
-            "Melton",
-            "Merri-bek",
-            "Mildura",
-            "Mitchell",
-            "Moira",
-            "Monash",
-            "Moonee Valley",
-            "Moorabool",
-            "Mornington Peninsula",
-            "Mount Alexander",
-            "Moyne",
-            "Murrindindi",
-            "Nillumbik",
-            "Northern Grampians",
-            "Port Phillip",
-            "Pyrenees",
-            "South Gippsland",
-            "Southern Grampians",
-            "Stonnington",
-            "Strathbogie",
-            "Surf Coast",
-            "Swan Hill",
-            "Towong",
-            "Wangaratta",
-            "Warrnambool",
-            "Wellington",
-            "West Wimmera",
-            "Whitehorse",
-            "Whittlesea",
-            "Wodonga",
-            "Wyndham",
-            "Yarra",
-            "Yarra Ranges",
-            "Yarriambiack"
-            ],
-
-        "labels": [
-          "All",
-        "Alpine",
-        "Ararat",
-        "Ballarat",
-        "Banyule",
-        "Bass Coast",
-        "Baw Baw",
-        "Bayside",
-        "Benalla",
-        "Boroondara",
-        "Brimbank",
-        "Buloke",
-        "Campaspe",
-        "Cardinia",
-        "Casey",
-        "Central Goldfields",
-        "Colac Otway",
-        "Corangamite",
-        "Darebin",
-        "East Gippsland",
-        "Frankston",
-        "Gannawarra",
-        "Glen Eira",
-        "Glenelg",
-        "Golden Plains",
-        "Greater Bendigo",
-        "Greater Dandenong",
-        "Greater Geelong",
-        "Greater Shepparton",
-        "Hepburn",
-        "Hindmarsh",
-        "Hobsons Bay",
-        "Horsham",
-        "Hume",
-        "Indigo",
-        "Kingston",
-        "Knox",
-        "Latrobe",
-        "Loddon",
-        "Macedon Ranges",
-        "Manningham",
-        "Mansfield",
-        "Maribyrnong",
-        "Maroondah",
-        "Melbourne",
-        "Melton",
-        "Merri-bek",
-        "Mildura",
-        "Mitchell",
-        "Moira",
-        "Monash",
-        "Moonee Valley",
-        "Moorabool",
-        "Mornington Peninsula",
-        "Mount Alexander",
-        "Moyne",
-        "Murrindindi",
-        "Nillumbik",
-        "Northern Grampians",
-        "Port Phillip",
-        "Pyrenees",
-        "South Gippsland",
-        "Southern Grampians",
-        "Stonnington",
-        "Strathbogie",
-        "Surf Coast",
-        "Swan Hill",
-        "Towong",
-        "Wangaratta",
-        "Warrnambool",
-        "Wellington",
-        "West Wimmera",
-        "Whitehorse",
-        "Whittlesea",
-        "Wodonga",
-        "Wyndham",
-        "Yarra",
-        "Yarra Ranges",
-        "Yarriambiack"
-        ]
-      }
-    }
+    {"name": "zoom_level", "value": 20000},
+    {"name": "lon_offset", "value": 0},
+    {"name": "lat_offset", "value": 0},
+    {"name": "show_schools", "value": false}
   ],
+  "projection": {
+    "type": "equirectangular",
+    "center": {"expr": "[144.9631 + lon_offset, -37.8136 + lat_offset]"},
+    "scale": {"expr": "zoom_level"}
+  },
   "layer": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/main/vic_lga.json",
-        "format": { "type": "topojson", "feature": "vic_lga" }
+        "format": {"type": "topojson", "feature": "vic_lga"}
       },
-      "mark": { "type": "geoshape", "fill": "#ddd", "stroke": "white" },
+      "mark": {"type": "geoshape", "fill": "#ddd", "stroke": "white"},
       "encoding": {
-        "tooltip": { "field": "properties.ABB_NAME", "type": "nominal", "title": "LGA" }
+        "tooltip": {
+          "field": "properties.ABB_NAME",
+          "type": "nominal",
+          "title": "LGA"
+        }
       }
     },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/main/vic_lga.json",
-        "format": { "type": "topojson", "feature": "vic_lga" }
+        "format": {"type": "topojson", "feature": "vic_lga"}
       },
       "transform": [
         {
@@ -202,27 +44,40 @@
             "key": "LGA_Name",
             "fields": ["Average_Median_Study_Score"]
           }
-        },
-        {
-          "filter": "selectedLGA == null || datum.properties.ABB_NAME == selectedLGA"
         }
       ],
-      "mark": { "type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5 },
+      "mark": {"type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5},
       "encoding": {
         "color": {
           "field": "Average_Median_Study_Score",
           "type": "quantitative",
-          "scale": { 
-            "scheme": "blues"
-          },
-          "legend": {
-            "title": "Median Study Score",
-            "format": ".2s"  
-          }
+          "scale": {"scheme": "blues"},
+          "legend": {"title": "Median Study Score", "format": ".2s"}
         },
         "tooltip": [
-          { "field": "properties.ABB_NAME", "type": "nominal", "title": "LGA" },
-          { "field": "Average_Median_Study_Score", "type": "quantitative", "title": "Median Study Score", "format": ".2f" }
+          {"field": "properties.ABB_NAME", "type": "nominal", "title": "LGA"},
+          {"field": "Average_Median_Study_Score", "type": "quantitative", "title": "Median Study Score", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/refs/heads/main/Secondary_Schools_Combined_With_VCE.csv"
+      },
+      "transform": [
+        {"filter": "show_schools"}
+      ],
+      "mark": {"type": "circle", "opacity": 0.8, "stroke": "#333", "strokeWidth": 0.5},
+      "encoding": {
+        "longitude": {"field": "X", "type": "quantitative"},
+        "latitude": {"field": "Y", "type": "quantitative"},
+        "size": {"field": "Secondary Total", "type": "quantitative", "title": "Total Enrolments", "scale": {"range": [5, 500]}},
+        "color": {"field": "Median_VCE_study_score", "type": "quantitative", "scale": {"scheme": "reds"}, "legend": {"title": "Median Study Score"}},
+        "tooltip": [
+          {"field": "School_Name", "title": "School"},
+          {"field": "LGA_Name", "title": "LGA"},
+          {"field": "Secondary Total", "title": "Total Enrolments"},
+          {"field": "Median_VCE_study_score", "title": "Median Study Score"}
         ]
       }
     }

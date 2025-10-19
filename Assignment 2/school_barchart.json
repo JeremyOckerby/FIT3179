@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Top 10 Victorian Schools by Percentage of Study Scores 40 and Over",
+  "width": 750,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/refs/heads/main/Secondary_Schools_Combined_With_VCE.csv"
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(datum['Percentage_of_study_scores_of_40_and_over'])",
+      "as": "Pct_40plus"
+    },
+    {
+      "calculate": "indexof(lower(datum.School), 'catholic') >= 0 ? 'Catholic' : (indexof(lower(datum.School), 'grammar') >= 0 || indexof(lower(datum.School), 'college') >= 0 ? 'Independent' : 'Government')",
+      "as": "Education_Sector"
+    },
+    {
+      "window": [{"op": "rank", "as": "rank"}],
+      "sort": [{"field": "Pct_40plus", "order": "descending"}]
+    },
+    {
+      "filter": "datum.rank <= 10"
+    }
+  ],
+  "mark": {"type": "bar", "orient": "horizontal", "cornerRadiusEnd": 4, "opacity": 0.9},
+  "encoding": {
+    "y": {
+      "field": "School_Name",
+      "type": "nominal",
+      "sort": "-x",
+      "title": "School"
+    },
+    "x": {
+      "field": "Pct_40plus",
+      "type": "quantitative",
+      "title": "% of Study Scores 40+"
+    },
+    "color": {
+      "field": "Education_Sector",
+      "type": "nominal",
+      "title": "Sector",
+      "scale": {
+        "domain": ["Catholic", "Government", "Independent"],
+        "range": ["#f54242", "#42f548", "#aa42f5"]
+      }
+    },
+    "tooltip": [
+      {"field": "School_Name", "title": "School"},
+      {"field": "Education_Sector", "title": "Sector"},
+      {"field": "Pct_40plus", "title": "% of Study Scores 40+"},
+      {"field": "Median_VCE_study_score", "title": "Median Study Score"}
+    ]
+  },
+  "config": {
+    "axis": {"labelFontSize": 12, "titleFontSize": 13},
+    "view": {"stroke": null}
+  }
+}
