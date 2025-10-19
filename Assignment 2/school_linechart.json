@@ -1,8 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Average Enrolments by Year Level and Sector",
-  "width": 900,
-  "height": 500,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "width": "container",
+  "height": "container",
+  "title": "Average Enrolments by Year Level",
   "data": {
     "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/refs/heads/main/Secondary_Schools_Combined_With_VCE.csv"
   },
@@ -40,7 +44,8 @@
       "scale": {
         "domain": ["Catholic", "Government", "Independent"],
         "range": ["#f54242", "#42f548", "#aa42f5"]
-      }
+      },
+      "legend": null
     },
     "tooltip": [
       {"field": "Year_Level", "type": "ordinal", "title": "Year Level"},
