@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
+    "title": {
     "text": "Top 10 by Percentage of 40+ Study Scores",
     "font": "Fira Sans",
     "fontSize": 18,

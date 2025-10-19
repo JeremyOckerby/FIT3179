@@ -1,20 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+    "text": "Average Enrolments by Year Level",
+    "font": "Fira Sans",
+    "fontSize": 18,
+    "fontWeight": "bold",
+    "color": "#333"
+  },
   "autosize": {
     "type": "fit",
     "contains": "padding"
   },
   "width": "container",
   "height": "container",
-  "title": "Average Enrolments by Year Level",
-    "config": {
-    "title": {
-        "font": "Fira Sans",
-        "fontSize": 18,
-        "fontWeight": "bold",
-        "color": "#333"
-    }
-  },
   "data": {
     "url": "https://raw.githubusercontent.com/JeremyOckerby/FIT3179/refs/heads/main/Secondary_Schools_Combined_With_VCE.csv"
   },
